@@ -56,7 +56,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: 'docs',
-          editUrl: 'https://github.com/eshanized/M31A/tree/master/',
+          editUrl: 'https://github.com/eshanized/docs.m31a.tonmoyinfrastructure.org/tree/master/',
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
         },
