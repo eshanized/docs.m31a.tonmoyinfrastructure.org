@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'The model proposes. The runtime decides.',
   favicon: 'img/favicon.svg',
   headTags: [
-    { tagName: 'meta', attributes: { name: 'theme-color', content: '#e5484d' } },
+    { tagName: 'meta', attributes: { name: 'theme-color', content: '#ff6f61' } },
     { tagName: 'meta', attributes: { property: 'og:site_name', content: 'M31A Documentation' } },
     { tagName: 'meta', attributes: { name: 'twitter:card', content: 'summary_large_image' } },
     { tagName: 'meta', attributes: { name: 'twitter:title', content: 'M31A Documentation' } },
