@@ -18,7 +18,7 @@ function SearchIcon({ className }: { className?: string }) {
 
 function RocketIcon({ className }: { className?: string }) {
   return (
-    <svg className={className} width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg className={className} width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M4.5 15.5l2-2m-2 2l-1 3.5 3.5-1 4.5-4.5c2-2 3.5-4.5 4.5-7.5-3 1-5.5 2.5-7.5 4.5L4.5 15.5z" />
       <circle cx="12.5" cy="7.5" r="1.5" />
     </svg>
@@ -27,7 +27,7 @@ function RocketIcon({ className }: { className?: string }) {
 
 function TerminalIcon({ className }: { className?: string }) {
   return (
-    <svg className={className} width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg className={className} width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <rect x="2.5" y="3.5" width="15" height="13" rx="2" />
       <polyline points="6 8 8.5 10 6 12" />
       <line x1="11" y1="12" x2="14" y2="12" />
@@ -37,7 +37,7 @@ function TerminalIcon({ className }: { className?: string }) {
 
 function LayersIcon({ className }: { className?: string }) {
   return (
-    <svg className={className} width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg className={className} width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <polygon points="10 2.5 17 6.5 10 10.5 3 6.5 10 2.5" />
       <polyline points="3 10.5 10 14.5 17 10.5" />
       <polyline points="3 14 10 18 17 14" />
@@ -47,7 +47,7 @@ function LayersIcon({ className }: { className?: string }) {
 
 function CodeIcon({ className }: { className?: string }) {
   return (
-    <svg className={className} width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg className={className} width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <polyline points="13 5 18 10 13 15" />
       <polyline points="7 15 2 10 7 5" />
       <line x1="11.5" y1="3.5" x2="8.5" y2="16.5" />
@@ -57,7 +57,7 @@ function CodeIcon({ className }: { className?: string }) {
 
 function ShieldIcon({ className }: { className?: string }) {
   return (
-    <svg className={className} width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg className={className} width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M10 2.5L3.5 5.5v5c0 4.5 3 7.5 6.5 8.5 3.5-1 6.5-4 6.5-8.5v-5L10 2.5z" />
       <path d="M7.5 10l2 2 4-4" />
     </svg>
@@ -155,6 +155,7 @@ const docCategories: DocCategory[] = [
    ========================================================================== */
 
 interface KeyReference {
+  tag: string;
   title: string;
   summary: string;
   linkText: string;
@@ -163,30 +164,93 @@ interface KeyReference {
 
 const keyReferences: KeyReference[] = [
   {
+    tag: 'INV-01 // AUTHORITY',
     title: 'Runtime Authority Model',
     summary: 'The model proposes; the runtime decides. The LLM never writes to disk or executes shell commands directly without policy verification.',
     linkText: 'Inspect Authority Invariants',
     to: '/docs/architecture/runtime-authority',
   },
   {
+    tag: 'INV-02 // LIFECYCLE',
     title: 'ExecutionRun Architecture',
     summary: 'Single canonical execution unit under task DAG scheduling, two-phase checkpointing, and complete state persistence across crashes.',
     linkText: 'View Execution Lifecycle',
     to: '/docs/user-guide/execution-lifecycle',
   },
   {
+    tag: 'INV-03 // INFERENCE',
     title: 'NVIDIA NIM Provider Integration',
     summary: 'Dedicated enterprise production inference wired exclusively to NVIDIA NIM (integrate.api.nvidia.com/v1) with token compaction.',
     linkText: 'Configure Model Provider',
     to: '/docs/getting-started/model-setup',
   },
   {
+    tag: 'INV-04 // DETERMINISM',
     title: 'Deterministic Nyquist Verification',
     summary: '7-tier verification hierarchy blocking task completion on model self-report, requiring cryptographic artifact snapshot matching.',
     linkText: 'Read Verification Manual',
     to: '/docs/subsystems/verification-nyquist',
   },
 ];
+
+/* ==========================================================================
+   Terminal Window Showcase Component
+   ========================================================================== */
+
+function TerminalShowcase() {
+  const [copied, setCopied] = useState(false);
+  const command = 'curl -fsSL https://docs.m31a.tonmoyinfrastructure.org/install.sh | bash';
+
+  const handleCopy = () => {
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(command);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  };
+
+  return (
+    <div className="m31a-terminal-showcase">
+      <div className="m31a-terminal-header">
+        <div className="m31a-terminal-dots">
+          <span className="m31a-dot m31a-dot-red" />
+          <span className="m31a-dot m31a-dot-yellow" />
+          <span className="m31a-dot m31a-dot-green" />
+        </div>
+        <span className="m31a-terminal-title">m31a-runtime — x86_64-linux</span>
+        <button
+          type="button"
+          className="m31a-terminal-copy-btn"
+          onClick={handleCopy}
+          aria-label="Copy install command"
+        >
+          {copied ? '✓ Copied' : 'Copy'}
+        </button>
+      </div>
+      <div className="m31a-terminal-body">
+        <div className="m31a-terminal-line">
+          <span className="m31a-prompt">$</span>
+          <span className="m31a-cmd">{command}</span>
+        </div>
+        <div className="m31a-terminal-line m31a-log-dim">
+          <span>[m31a] validating rust toolchain (1.85.0+)...</span>
+        </div>
+        <div className="m31a-terminal-line">
+          <span className="m31a-success-tick">✓</span>
+          <span>Landlock ABI v3 sandboxing confirmed</span>
+        </div>
+        <div className="m31a-terminal-line">
+          <span className="m31a-success-tick">✓</span>
+          <span>NVIDIA NIM inference provider endpoint active</span>
+        </div>
+        <div className="m31a-terminal-line">
+          <span className="m31a-prompt">&gt;</span>
+          <span className="m31a-cmd">m31a ready. Run `m31a --help` or `m31a cockpit` to begin.</span>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 /* ==========================================================================
    Homepage Component
@@ -209,7 +273,6 @@ export default function Home(): React.JSX.Element {
     if (query) {
       window.location.href = `/search?q=${encodeURIComponent(query)}`;
     } else {
-      // Focus the navbar search input if empty query
       const navInput = document.querySelector('.navbar__search-input') as HTMLInputElement | null;
       if (navInput) {
         navInput.focus();
@@ -224,29 +287,35 @@ export default function Home(): React.JSX.Element {
       <div className="m31a-home">
         {/* Section A: Compact Introductory Section */}
         <section className="m31a-hero" aria-labelledby="hero-heading">
-          <div className="m31a-badge-identifier">
-            <span>M31 Autonomous</span>
-            <span>•</span>
-            <span>Systems Documentation</span>
+          <div className="m31a-badge-pill">
+            <span className="m31a-pulse-dot" />
+            <span>M31 Autonomous Runtime</span>
+            <span className="m31a-badge-sep">•</span>
+            <span>v0.1.12 Architecture</span>
           </div>
 
           <h1 id="hero-heading" className="m31a-hero__title">
-            {siteConfig.title}
+            <span className="m31a-title-gradient">M31A</span> Documentation
           </h1>
 
           <p className="m31a-hero__subtitle">
-            <strong>"The model proposes. The runtime decides."</strong><br />
+            <span className="m31a-tagline-quote">"The model proposes. The runtime decides."</span>
             Rust-native autonomous software engineering runtime with non-bypassable policy gates, verifiable execution, and isolated git attribution.
           </p>
 
           <div className="m31a-hero__actions">
-            <Link className="m31a-btn-primary" to="/docs/getting-started/quickstart">
-              Get Started
+            <Link className="m31a-btn-glow" to="/docs/getting-started/quickstart">
+              <RocketIcon />
+              <span>Get Started</span>
             </Link>
             <Link className="m31a-btn-secondary" to="/docs/architecture/overview">
-              Explore Architecture
+              <LayersIcon />
+              <span>Explore Architecture</span>
             </Link>
           </div>
+
+          {/* Interactive Live Terminal Showcase */}
+          <TerminalShowcase />
         </section>
 
         {/* Section B: Prominent Documentation Search */}
@@ -280,6 +349,28 @@ export default function Home(): React.JSX.Element {
           </div>
         </section>
 
+        {/* Telemetry Stat Ribbon */}
+        <section className="m31a-telemetry-ribbon" aria-label="Runtime Telemetry and Coverage Statistics">
+          <div className="m31a-stat-grid">
+            <div className="m31a-stat-item">
+              <div className="m31a-stat-value">567</div>
+              <div className="m31a-stat-label">First-Party Rust Files</div>
+            </div>
+            <div className="m31a-stat-item">
+              <div className="m31a-stat-value">266</div>
+              <div className="m31a-stat-label">Verified Test Cases</div>
+            </div>
+            <div className="m31a-stat-item">
+              <div className="m31a-stat-value">42</div>
+              <div className="m31a-stat-label">Modular Subsystems</div>
+            </div>
+            <div className="m31a-stat-item">
+              <div className="m31a-stat-value">0</div>
+              <div className="m31a-stat-label">Bypassable Policy Gates</div>
+            </div>
+          </div>
+        </section>
+
         {/* Section C: Browse Documentation by Purpose */}
         <section className="m31a-categories-section" aria-labelledby="browse-heading">
           <div className="m31a-section-header">
@@ -297,7 +388,9 @@ export default function Home(): React.JSX.Element {
               return (
                 <article key={idx} className="m31a-category-card">
                   <div className="m31a-card-head">
-                    <IconComp className="m31a-card-icon" />
+                    <div className="m31a-icon-badge">
+                      <IconComp />
+                    </div>
                     <h3 className="m31a-card-title">{cat.title}</h3>
                   </div>
                   <p className="m31a-card-desc">{cat.description}</p>
@@ -331,6 +424,7 @@ export default function Home(): React.JSX.Element {
           <div className="m31a-invariants-grid">
             {keyReferences.map((ref, idx) => (
               <div key={idx} className="m31a-invariant-item">
+                <span className="m31a-inv-tag">{ref.tag}</span>
                 <h4>{ref.title}</h4>
                 <p>{ref.summary}</p>
                 <Link className="m31a-invariant-link" to={ref.to}>
