@@ -11,13 +11,13 @@
 
 :root {
   /* Brand Teal / Cyan Palette (Light Mode) */
-  --ifm-color-primary: #0d9488;
-  --ifm-color-primary-dark: #0f766e;
-  --ifm-color-primary-darker: #115e59;
-  --ifm-color-primary-darkest: #134e4a;
-  --ifm-color-primary-light: #14b8a6;
-  --ifm-color-primary-lighter: #2dd4bf;
-  --ifm-color-primary-lightest: #5eead4;
+  --ifm-color-primary: #e5484d;
+  --ifm-color-primary-dark: #c93c42;
+  --ifm-color-primary-darker: #a82d35;
+  --ifm-color-primary-darkest: #84212a;
+  --ifm-color-primary-light: #f06469;
+  --ifm-color-primary-lighter: #f58a8d;
+  --ifm-color-primary-lightest: #ffc2c3;
 
   /* Surfaces & Canvas */
   --ifm-background-color: #f8fafc;
@@ -33,11 +33,11 @@
   /* Borders & Glows */
   --m31a-border: #e2e8f0;
   --m31a-border-subtle: rgba(0, 0, 0, 0.06);
-  --m31a-border-hover: #0d9488;
-  --m31a-border-focus: #0d9488;
+  --m31a-border-hover: #e5484d;
+  --m31a-border-focus: #e5484d;
   --m31a-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
-  --m31a-card-hover-shadow: 0 12px 24px -6px rgba(13, 148, 136, 0.12), 0 4px 8px -2px rgba(0, 0, 0, 0.04);
-  --m31a-glow-accent: rgba(13, 148, 136, 0.15);
+  --m31a-card-hover-shadow: 0 12px 24px -6px rgba(229, 72, 77, 0.12), 0 4px 8px -2px rgba(0, 0, 0, 0.04);
+  --m31a-glow-accent: rgba(229, 72, 77, 0.15);
   --ifm-toc-border-color: #e2e8f0;
 
   /* Typography Colors */
@@ -45,7 +45,7 @@
   --ifm-font-color-secondary: #475569;
   --ifm-heading-color: #0f172a;
   --m31a-text-muted: #64748b;
-  --m31a-gradient-title: linear-gradient(135deg, #0f172a 0%, #0d9488 100%);
+  --m31a-gradient-title: linear-gradient(135deg, #0f172a 0%, #e5484d 100%);
 
   /* Typography Scales */
   --ifm-font-family-base: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -59,7 +59,7 @@
   --m31a-code-bg: #f8fafc;
   --m31a-code-inline-bg: #f1f5f9;
   --m31a-code-border: #e2e8f0;
-  --docusaurus-highlighted-code-line-bg: rgba(13, 148, 136, 0.08);
+  --docusaurus-highlighted-code-line-bg: rgba(229, 72, 77, 0.08);
 
   /* Navbar & Footer */
   --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
@@ -68,17 +68,17 @@
   --ifm-navbar-padding-vertical: 0.5rem;
   --ifm-navbar-padding-horizontal: 1.5rem;
   --ifm-navbar-link-color: #334155;
-  --ifm-navbar-link-hover-color: #0d9488;
+  --ifm-navbar-link-hover-color: #e5484d;
   --ifm-footer-background-color: #f1f5f9;
   --ifm-footer-color: #475569;
   --ifm-footer-link-color: #334155;
-  --ifm-footer-link-hover-color: #0d9488;
+  --ifm-footer-link-hover-color: #e5484d;
   --ifm-footer-title-color: #0f172a;
 
   /* Sidebar Navigation */
   --ifm-menu-color: #475569;
-  --ifm-menu-color-active: #0d9488;
-  --ifm-menu-color-background-active: rgba(13, 148, 136, 0.08);
+  --ifm-menu-color-active: #e5484d;
+  --ifm-menu-color-background-active: rgba(229, 72, 77, 0.08);
   --ifm-menu-color-background-hover: rgba(0, 0, 0, 0.04);
 
   /* Container Widths */
@@ -88,12 +88,12 @@
   /* Search Local Colors */
   --search-local-modal-background: #ffffff;
   --search-local-hit-background: #f8fafc;
-  --search-local-hit-active-background: rgba(13, 148, 136, 0.08);
-  --search-local-highlight-color: #0d9488;
+  --search-local-hit-active-background: rgba(229, 72, 77, 0.08);
+  --search-local-highlight-color: #e5484d;
   --search-local-modal-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
   /* Button Tokens */
-  --m31a-btn-primary-bg: linear-gradient(135deg, #0d9488 0%, #0284c7 100%);
+  --m31a-btn-primary-bg: linear-gradient(135deg, #e5484d 0%, #e5484d 100%);
   --m31a-btn-primary-text: #ffffff;
 }
 
@@ -172,7 +172,7 @@ samp {
   width: 30px;
   display: flex;
   align-items: center;
-  filter: drop-shadow(0 0 6px rgba(45, 212, 191, 0.35));
+  filter: drop-shadow(0 0 6px rgba(229, 72, 77, 0.35));
 }
 
 .navbar__logo img {
@@ -566,7 +566,7 @@ button[class*='copyButton_']:hover {
   left: 0;
   right: 0;
   height: 900px;
-  background-image: radial-gradient(rgba(45, 212, 191, 0.12) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(229, 72, 77, 0.12) 1px, transparent 1px);
   background-size: 28px 28px;
   mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, #000 60%, transparent 100%);
   -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, #000 60%, transparent 100%);
@@ -583,7 +583,7 @@ button[class*='copyButton_']:hover {
   transform: translateX(-50%);
   width: 900px;
   height: 550px;
-  background: radial-gradient(circle, rgba(45, 212, 191, 0.14) 0%, rgba(14, 165, 233, 0.06) 45%, transparent 70%);
+  background: radial-gradient(circle, rgba(229, 72, 77, 0.14) 0%, rgba(14, 165, 233, 0.06) 45%, transparent 70%);
   pointer-events: none;
   z-index: 0;
 }
@@ -815,7 +815,7 @@ button[class*='copyButton_']:hover {
 }
 
 .m31a-success-tick {
-  color: #2dd4bf;
+  color: #f58a8d;
   user-select: none;
 }
 
