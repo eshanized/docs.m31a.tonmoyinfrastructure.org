@@ -85,7 +85,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '6. Complete Codebase Reference (567 files)',
+      label: '6. Codebase Reference',
       collapsed: true,
       items: [
         'codebase/overview',
@@ -135,7 +135,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '7. Test Reference & Catalog (266 files)',
+      label: '7. Test Suite Catalog',
       collapsed: true,
       items: [
         'tests/overview',

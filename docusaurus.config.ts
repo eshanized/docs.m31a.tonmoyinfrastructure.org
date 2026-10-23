@@ -24,6 +24,22 @@ const config: Config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com',
+      rel: 'preconnect',
+    },
+    {
+      href: 'https://fonts.gstatic.com',
+      rel: 'preconnect',
+      crossOrigin: 'anonymous',
+    },
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap',
+      rel: 'stylesheet',
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -53,6 +69,9 @@ const config: Config = {
         indexBlog: false,
         indexPages: true,
         docsRouteBasePath: '/docs',
+        searchBarShortcut: true,
+        searchBarShortcutHint: true,
+        searchBarPosition: 'right',
       },
     ],
   ],
@@ -75,59 +94,44 @@ const config: Config = {
           label: 'Documentation',
         },
         {
+          to: '/docs/user-guide/cli-usage',
+          label: 'Guides',
+          position: 'left',
+        },
+        {
           to: '/docs/architecture/overview',
           label: 'Architecture',
           position: 'left',
         },
         {
-          to: '/docs/subsystems/overview',
-          label: 'Subsystems',
-          position: 'left',
-        },
-        {
-          to: '/docs/codebase/overview',
-          label: 'Codebase (567 files)',
-          position: 'left',
-        },
-        {
-          to: '/docs/tests/overview',
-          label: 'Tests (266 files)',
-          position: 'left',
-        },
-        {
           to: '/docs/reference/cli',
-          label: 'CLI & Config',
+          label: 'API Reference',
           position: 'left',
-        },
-        {
-          href: 'https://m31a.tonmoyinfrastructure.org/',
-          label: 'Product Site',
-          position: 'right',
         },
         {
           href: 'https://github.com/eshanized/M31A',
           label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
         },
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Documentation',
           items: [
             { label: 'Introduction', to: '/docs/intro/overview' },
             { label: 'Installation & Quickstart', to: '/docs/getting-started/quickstart' },
-            { label: 'User Manual', to: '/docs/user-guide/cli-usage' },
+            { label: 'User Manual & Guides', to: '/docs/user-guide/cli-usage' },
             { label: 'Architecture Overview', to: '/docs/architecture/overview' },
           ],
         },
         {
           title: 'Deep Reference',
           items: [
-            { label: 'Codebase Reference (567 Rust Files)', to: '/docs/codebase/overview' },
-            { label: 'Test Suite Catalog (266 Test Files)', to: '/docs/tests/overview' },
+            { label: 'Codebase Reference', to: '/docs/codebase/overview' },
+            { label: 'Test Suite Catalog', to: '/docs/tests/overview' },
             { label: 'Subsystem Manuals', to: '/docs/subsystems/overview' },
             { label: 'CLI & Exit Codes', to: '/docs/reference/cli' },
           ],
@@ -137,24 +141,24 @@ const config: Config = {
           items: [
             { label: 'Security & Threat Model', to: '/docs/security/overview' },
             { label: 'Deployment & Channels', to: '/docs/deployment/overview' },
-            { label: 'Troubleshooting & FAQ', to: '/docs/troubleshooting/diagnostics' },
+            { label: 'Troubleshooting & Diagnostics', to: '/docs/troubleshooting/diagnostics' },
             { label: 'Developer Handbook', to: '/docs/developer/setup' },
           ],
         },
         {
           title: 'Project & Ecosystem',
           items: [
-            { label: 'Main Website', href: 'https://m31a.tonmoyinfrastructure.org/' },
+            { label: 'Product Website', href: 'https://m31a.tonmoyinfrastructure.org/' },
             { label: 'GitHub Repository', href: 'https://github.com/eshanized/M31A' },
             { label: 'Issue Tracker', href: 'https://github.com/eshanized/M31A/issues' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} M31 Autonomous (M31A). Built with Docusaurus for high-assurance autonomous engineering.`,
+      copyright: `Copyright © ${new Date().getFullYear()} M31 Autonomous (M31A). Built for high-assurance autonomous engineering.`,
     },
     prism: {
       theme: require('prism-react-renderer').themes.github,
-      darkTheme: require('prism-react-renderer').themes.dracula,
+      darkTheme: require('prism-react-renderer').themes.oneDark,
       additionalLanguages: [
         'rust',
         'toml',
