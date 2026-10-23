@@ -3,8 +3,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'M31A Documentation',
+  titleDelimiter: ' | ',
   tagline: 'The model proposes. The runtime decides.',
-  favicon: 'img/logo.svg',
+  favicon: 'img/favicon.svg',
 
   url: 'https://docs.m31a.tonmoyinfrastructure.org',
   baseUrl: '/',
@@ -77,7 +78,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.svg',
+    image: 'img/social-card.svg',
     navbar: {
       title: 'M31A',
       logo: {
