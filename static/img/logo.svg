@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="m31a-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#000dff" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2c4" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <!-- Outer circle / orbit -->
+  <circle cx="50" cy="50" r="44" fill="#0f172a" stroke="url(#m31a-grad)" stroke-width="3" />
+  <!-- Galaxy orbital ellipses -->
+  <ellipse cx="50" cy="50" rx="36" ry="14" fill="none" stroke="url(#glow)" stroke-width="2" transform="rotate(-30 50 50)" opacity="0.8" />
+  <ellipse cx="50" cy="50" rx="36" ry="14" fill="none" stroke="url(#m31a-grad)" stroke-width="2" transform="rotate(35 50 50)" opacity="0.8" />
+  <!-- Central Nucleus -->
+  <circle cx="50" cy="50" r="10" fill="url(#glow)" />
+  <circle cx="50" cy="50" r="5" fill="#ffffff" />
+  <!-- Autonomous satellite nodes -->
+  <circle cx="24" cy="35" r="3.5" fill="#00f2fe" />
+  <circle cx="76" cy="65" r="3.5" fill="#38bdf8" />
+  <circle cx="68" cy="28" r="3" fill="#818cf8" />
+</svg>

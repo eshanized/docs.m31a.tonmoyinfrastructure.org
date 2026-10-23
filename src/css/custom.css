@@ -1,0 +1,120 @@
+/**
+ * M31 Autonomous (M31A) Documentation Stylesheet
+ * Dark-slate-cyan theme alignment with production cockpit aesthetic
+ */
+
+:root {
+  --ifm-color-primary: #00a89d;
+  --ifm-color-primary-dark: #00978d;
+  --ifm-color-primary-darker: #008f85;
+  --ifm-color-primary-darkest: #00766e;
+  --ifm-color-primary-light: #00b9ad;
+  --ifm-color-primary-lighter: #00c2b5;
+  --ifm-color-primary-lightest: #1ad2c5;
+  --ifm-code-font-size: 92%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #00d2c4;
+  --ifm-color-primary-dark: #00bda0;
+  --ifm-color-primary-darker: #00b297;
+  --ifm-color-primary-darkest: #00937c;
+  --ifm-color-primary-light: #1ae7d9;
+  --ifm-color-primary-lighter: #27e9dc;
+  --ifm-color-primary-lightest: #51eee3;
+  --ifm-background-color: #0b0f19;
+  --ifm-background-surface-color: #111827;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 210, 196, 0.15);
+}
+
+.hero--m31a {
+  background: radial-gradient(circle at 50% 20%, rgba(0, 210, 196, 0.15) 0%, rgba(15, 23, 42, 0) 70%),
+              linear-gradient(180deg, #0f172a 0%, #0b0f19 100%);
+  color: #f8fafc;
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 210, 196, 0.2);
+}
+
+.badge-tag {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 210, 196, 0.15);
+  color: #00d2c4;
+  border: 1px solid rgba(0, 210, 196, 0.3);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.audience-card {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.audience-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 8px 24px rgba(0, 210, 196, 0.12);
+}
+
+.audience-card h3 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.audience-card p {
+  flex-grow: 1;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.audience-card a.card-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background: rgba(0, 210, 196, 0.1);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(0, 210, 196, 0.3);
+  text-align: center;
+  transition: background 0.2s ease;
+}
+
+.audience-card a.card-btn:hover {
+  background: var(--ifm-color-primary);
+  color: #0b0f19;
+}
+
+.feature-box {
+  background: var(--ifm-background-surface-color);
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}

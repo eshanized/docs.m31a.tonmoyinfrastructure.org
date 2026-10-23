@@ -1,0 +1,4743 @@
+{
+  "total_source_files": 567,
+  "documented_source_files": 567,
+  "total_test_files": 266,
+  "documented_test_files": 266,
+  "subsystems_count": 42,
+  "sources": {
+    "src/agent/action.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-action-rs",
+      "subsystem": "agent",
+      "lines": 735
+    },
+    "src/agent/adaptive.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-adaptive-rs",
+      "subsystem": "agent",
+      "lines": 568
+    },
+    "src/agent/delegation.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-delegation-rs",
+      "subsystem": "agent",
+      "lines": 179
+    },
+    "src/agent/dispatcher.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-dispatcher-rs",
+      "subsystem": "agent",
+      "lines": 1204
+    },
+    "src/agent/engine.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-engine-rs",
+      "subsystem": "agent",
+      "lines": 2495
+    },
+    "src/agent/envelope.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-envelope-rs",
+      "subsystem": "agent",
+      "lines": 187
+    },
+    "src/agent/events.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-events-rs",
+      "subsystem": "agent",
+      "lines": 174
+    },
+    "src/agent/handoff.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-handoff-rs",
+      "subsystem": "agent",
+      "lines": 292
+    },
+    "src/agent/intent.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-intent-rs",
+      "subsystem": "agent",
+      "lines": 1407
+    },
+    "src/agent/intent_repository.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-intent_repository-rs",
+      "subsystem": "agent",
+      "lines": 186
+    },
+    "src/agent/mod.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-mod-rs",
+      "subsystem": "agent",
+      "lines": 62
+    },
+    "src/agent/model_policy.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-model_policy-rs",
+      "subsystem": "agent",
+      "lines": 1409
+    },
+    "src/agent/profile.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-profile-rs",
+      "subsystem": "agent",
+      "lines": 240
+    },
+    "src/agent/registry.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-registry-rs",
+      "subsystem": "agent",
+      "lines": 530
+    },
+    "src/agent/registry/builtins.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-registry-builtins-rs",
+      "subsystem": "agent",
+      "lines": 606
+    },
+    "src/agent/runner.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-runner-rs",
+      "subsystem": "agent",
+      "lines": 1990
+    },
+    "src/agent/supervisor.rs": {
+      "doc_page": "/docs/codebase/agent",
+      "doc_anchor": "#src-agent-supervisor-rs",
+      "subsystem": "agent",
+      "lines": 579
+    },
+    "src/capability/error.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-error-rs",
+      "subsystem": "capability",
+      "lines": 80
+    },
+    "src/capability/family.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-family-rs",
+      "subsystem": "capability",
+      "lines": 135
+    },
+    "src/capability/health.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-health-rs",
+      "subsystem": "capability",
+      "lines": 283
+    },
+    "src/capability/instance.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-instance-rs",
+      "subsystem": "capability",
+      "lines": 63
+    },
+    "src/capability/mod.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-mod-rs",
+      "subsystem": "capability",
+      "lines": 25
+    },
+    "src/capability/permissions.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-permissions-rs",
+      "subsystem": "capability",
+      "lines": 300
+    },
+    "src/capability/providers/cli_git.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-cli_git-rs",
+      "subsystem": "capability",
+      "lines": 494
+    },
+    "src/capability/providers/event_bus.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-event_bus-rs",
+      "subsystem": "capability",
+      "lines": 70
+    },
+    "src/capability/providers/fs_artifacts.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-fs_artifacts-rs",
+      "subsystem": "capability",
+      "lines": 130
+    },
+    "src/capability/providers/local_fs.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_fs-rs",
+      "subsystem": "capability",
+      "lines": 705
+    },
+    "src/capability/providers/local_lsp.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_lsp-rs",
+      "subsystem": "capability",
+      "lines": 514
+    },
+    "src/capability/providers/local_memory.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_memory-rs",
+      "subsystem": "capability",
+      "lines": 83
+    },
+    "src/capability/providers/local_network.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_network-rs",
+      "subsystem": "capability",
+      "lines": 58
+    },
+    "src/capability/providers/local_process.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_process-rs",
+      "subsystem": "capability",
+      "lines": 400
+    },
+    "src/capability/providers/local_sandbox.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_sandbox-rs",
+      "subsystem": "capability",
+      "lines": 120
+    },
+    "src/capability/providers/local_terminal.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_terminal-rs",
+      "subsystem": "capability",
+      "lines": 385
+    },
+    "src/capability/providers/local_verification.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_verification-rs",
+      "subsystem": "capability",
+      "lines": 131
+    },
+    "src/capability/providers/local_web.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-local_web-rs",
+      "subsystem": "capability",
+      "lines": 325
+    },
+    "src/capability/providers/mod.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-mod-rs",
+      "subsystem": "capability",
+      "lines": 31
+    },
+    "src/capability/providers/model_caller.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-model_caller-rs",
+      "subsystem": "capability",
+      "lines": 72
+    },
+    "src/capability/providers/repo_graph.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-providers-repo_graph-rs",
+      "subsystem": "capability",
+      "lines": 147
+    },
+    "src/capability/registry.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-registry-rs",
+      "subsystem": "capability",
+      "lines": 608
+    },
+    "src/capability/traits/artifacts.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-artifacts-rs",
+      "subsystem": "capability",
+      "lines": 24
+    },
+    "src/capability/traits/fs.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-fs-rs",
+      "subsystem": "capability",
+      "lines": 64
+    },
+    "src/capability/traits/git.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-git-rs",
+      "subsystem": "capability",
+      "lines": 122
+    },
+    "src/capability/traits/jobs.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-jobs-rs",
+      "subsystem": "capability",
+      "lines": 54
+    },
+    "src/capability/traits/memory.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-memory-rs",
+      "subsystem": "capability",
+      "lines": 19
+    },
+    "src/capability/traits/mod.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-mod-rs",
+      "subsystem": "capability",
+      "lines": 35
+    },
+    "src/capability/traits/model.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-model-rs",
+      "subsystem": "capability",
+      "lines": 32
+    },
+    "src/capability/traits/network.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-network-rs",
+      "subsystem": "capability",
+      "lines": 14
+    },
+    "src/capability/traits/process.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-process-rs",
+      "subsystem": "capability",
+      "lines": 23
+    },
+    "src/capability/traits/repo.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-repo-rs",
+      "subsystem": "capability",
+      "lines": 44
+    },
+    "src/capability/traits/sandbox.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-sandbox-rs",
+      "subsystem": "capability",
+      "lines": 55
+    },
+    "src/capability/traits/shell.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-shell-rs",
+      "subsystem": "capability",
+      "lines": 26
+    },
+    "src/capability/traits/telemetry.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-telemetry-rs",
+      "subsystem": "capability",
+      "lines": 24
+    },
+    "src/capability/traits/terminal.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-terminal-rs",
+      "subsystem": "capability",
+      "lines": 106
+    },
+    "src/capability/traits/verification.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-verification-rs",
+      "subsystem": "capability",
+      "lines": 43
+    },
+    "src/capability/traits/web.rs": {
+      "doc_page": "/docs/codebase/capability",
+      "doc_anchor": "#src-capability-traits-web-rs",
+      "subsystem": "capability",
+      "lines": 41
+    },
+    "src/change/applier.rs": {
+      "doc_page": "/docs/codebase/change",
+      "doc_anchor": "#src-change-applier-rs",
+      "subsystem": "change",
+      "lines": 531
+    },
+    "src/change/authority.rs": {
+      "doc_page": "/docs/codebase/change",
+      "doc_anchor": "#src-change-authority-rs",
+      "subsystem": "change",
+      "lines": 850
+    },
+    "src/change/mod.rs": {
+      "doc_page": "/docs/codebase/change",
+      "doc_anchor": "#src-change-mod-rs",
+      "subsystem": "change",
+      "lines": 25
+    },
+    "src/change/observer.rs": {
+      "doc_page": "/docs/codebase/change",
+      "doc_anchor": "#src-change-observer-rs",
+      "subsystem": "change",
+      "lines": 299
+    },
+    "src/change/provenance.rs": {
+      "doc_page": "/docs/codebase/change",
+      "doc_anchor": "#src-change-provenance-rs",
+      "subsystem": "change",
+      "lines": 259
+    },
+    "src/change/reconciler.rs": {
+      "doc_page": "/docs/codebase/change",
+      "doc_anchor": "#src-change-reconciler-rs",
+      "subsystem": "change",
+      "lines": 512
+    },
+    "src/change/review.rs": {
+      "doc_page": "/docs/codebase/change",
+      "doc_anchor": "#src-change-review-rs",
+      "subsystem": "change",
+      "lines": 231
+    },
+    "src/checkpoint/crash_recovery.rs": {
+      "doc_page": "/docs/codebase/checkpoint",
+      "doc_anchor": "#src-checkpoint-crash_recovery-rs",
+      "subsystem": "checkpoint",
+      "lines": 969
+    },
+    "src/checkpoint/integrity.rs": {
+      "doc_page": "/docs/codebase/checkpoint",
+      "doc_anchor": "#src-checkpoint-integrity-rs",
+      "subsystem": "checkpoint",
+      "lines": 213
+    },
+    "src/checkpoint/manager.rs": {
+      "doc_page": "/docs/codebase/checkpoint",
+      "doc_anchor": "#src-checkpoint-manager-rs",
+      "subsystem": "checkpoint",
+      "lines": 598
+    },
+    "src/checkpoint/manifest.rs": {
+      "doc_page": "/docs/codebase/checkpoint",
+      "doc_anchor": "#src-checkpoint-manifest-rs",
+      "subsystem": "checkpoint",
+      "lines": 95
+    },
+    "src/checkpoint/mod.rs": {
+      "doc_page": "/docs/codebase/checkpoint",
+      "doc_anchor": "#src-checkpoint-mod-rs",
+      "subsystem": "checkpoint",
+      "lines": 25
+    },
+    "src/checkpoint/resume.rs": {
+      "doc_page": "/docs/codebase/checkpoint",
+      "doc_anchor": "#src-checkpoint-resume-rs",
+      "subsystem": "checkpoint",
+      "lines": 436
+    },
+    "src/cli/args.rs": {
+      "doc_page": "/docs/codebase/cli",
+      "doc_anchor": "#src-cli-args-rs",
+      "subsystem": "cli",
+      "lines": 505
+    },
+    "src/cli/dispatch.rs": {
+      "doc_page": "/docs/codebase/cli",
+      "doc_anchor": "#src-cli-dispatch-rs",
+      "subsystem": "cli",
+      "lines": 2301
+    },
+    "src/cli/doctor.rs": {
+      "doc_page": "/docs/codebase/cli",
+      "doc_anchor": "#src-cli-doctor-rs",
+      "subsystem": "cli",
+      "lines": 541
+    },
+    "src/cli/exit_codes.rs": {
+      "doc_page": "/docs/codebase/cli",
+      "doc_anchor": "#src-cli-exit_codes-rs",
+      "subsystem": "cli",
+      "lines": 68
+    },
+    "src/cli/mod.rs": {
+      "doc_page": "/docs/codebase/cli",
+      "doc_anchor": "#src-cli-mod-rs",
+      "subsystem": "cli",
+      "lines": 17
+    },
+    "src/cli/output.rs": {
+      "doc_page": "/docs/codebase/cli",
+      "doc_anchor": "#src-cli-output-rs",
+      "subsystem": "cli",
+      "lines": 89
+    },
+    "src/config/canonical.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-canonical-rs",
+      "subsystem": "config",
+      "lines": 241
+    },
+    "src/config/env.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-env-rs",
+      "subsystem": "config",
+      "lines": 78
+    },
+    "src/config/hierarchy.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-hierarchy-rs",
+      "subsystem": "config",
+      "lines": 126
+    },
+    "src/config/merge.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-merge-rs",
+      "subsystem": "config",
+      "lines": 245
+    },
+    "src/config/mod.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-mod-rs",
+      "subsystem": "config",
+      "lines": 37
+    },
+    "src/config/paths.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-paths-rs",
+      "subsystem": "config",
+      "lines": 230
+    },
+    "src/config/profile.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-profile-rs",
+      "subsystem": "config",
+      "lines": 265
+    },
+    "src/config/provenance.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-provenance-rs",
+      "subsystem": "config",
+      "lines": 292
+    },
+    "src/config/provider_registry.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-provider_registry-rs",
+      "subsystem": "config",
+      "lines": 960
+    },
+    "src/config/resolved.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-resolved-rs",
+      "subsystem": "config",
+      "lines": 1345
+    },
+    "src/config/schema.rs": {
+      "doc_page": "/docs/codebase/config",
+      "doc_anchor": "#src-config-schema-rs",
+      "subsystem": "config",
+      "lines": 1085
+    },
+    "src/context/compiler.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-compiler-rs",
+      "subsystem": "context",
+      "lines": 1607
+    },
+    "src/context/envelope.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-envelope-rs",
+      "subsystem": "context",
+      "lines": 401
+    },
+    "src/context/evidence.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-evidence-rs",
+      "subsystem": "context",
+      "lines": 709
+    },
+    "src/context/externalize.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-externalize-rs",
+      "subsystem": "context",
+      "lines": 405
+    },
+    "src/context/manifest.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-manifest-rs",
+      "subsystem": "context",
+      "lines": 172
+    },
+    "src/context/mod.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-mod-rs",
+      "subsystem": "context",
+      "lines": 25
+    },
+    "src/context/priority.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-priority-rs",
+      "subsystem": "context",
+      "lines": 454
+    },
+    "src/context/tokenizer.rs": {
+      "doc_page": "/docs/codebase/context",
+      "doc_anchor": "#src-context-tokenizer-rs",
+      "subsystem": "context",
+      "lines": 146
+    },
+    "src/controller/dependencies.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-dependencies-rs",
+      "subsystem": "controller",
+      "lines": 821
+    },
+    "src/controller/error.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-error-rs",
+      "subsystem": "controller",
+      "lines": 46
+    },
+    "src/controller/halting.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-halting-rs",
+      "subsystem": "controller",
+      "lines": 189
+    },
+    "src/controller/harness.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-harness-rs",
+      "subsystem": "controller",
+      "lines": 461
+    },
+    "src/controller/loop_detector.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-loop_detector-rs",
+      "subsystem": "controller",
+      "lines": 164
+    },
+    "src/controller/mod.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-mod-rs",
+      "subsystem": "controller",
+      "lines": 2520
+    },
+    "src/controller/progress.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-progress-rs",
+      "subsystem": "controller",
+      "lines": 232
+    },
+    "src/controller/stage.rs": {
+      "doc_page": "/docs/codebase/controller",
+      "doc_anchor": "#src-controller-stage-rs",
+      "subsystem": "controller",
+      "lines": 368
+    },
+    "src/dag/cpm.rs": {
+      "doc_page": "/docs/codebase/dag",
+      "doc_anchor": "#src-dag-cpm-rs",
+      "subsystem": "dag",
+      "lines": 274
+    },
+    "src/dag/graph.rs": {
+      "doc_page": "/docs/codebase/dag",
+      "doc_anchor": "#src-dag-graph-rs",
+      "subsystem": "dag",
+      "lines": 364
+    },
+    "src/dag/materializer.rs": {
+      "doc_page": "/docs/codebase/dag",
+      "doc_anchor": "#src-dag-materializer-rs",
+      "subsystem": "dag",
+      "lines": 383
+    },
+    "src/dag/mod.rs": {
+      "doc_page": "/docs/codebase/dag",
+      "doc_anchor": "#src-dag-mod-rs",
+      "subsystem": "dag",
+      "lines": 20
+    },
+    "src/dag/ops.rs": {
+      "doc_page": "/docs/codebase/dag",
+      "doc_anchor": "#src-dag-ops-rs",
+      "subsystem": "dag",
+      "lines": 864
+    },
+    "src/dag/reconciler.rs": {
+      "doc_page": "/docs/codebase/dag",
+      "doc_anchor": "#src-dag-reconciler-rs",
+      "subsystem": "dag",
+      "lines": 372
+    },
+    "src/dag/validator.rs": {
+      "doc_page": "/docs/codebase/dag",
+      "doc_anchor": "#src-dag-validator-rs",
+      "subsystem": "dag",
+      "lines": 315
+    },
+    "src/deployment/artifact.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-artifact-rs",
+      "subsystem": "deployment",
+      "lines": 215
+    },
+    "src/deployment/channel.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-channel-rs",
+      "subsystem": "deployment",
+      "lines": 204
+    },
+    "src/deployment/context.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-context-rs",
+      "subsystem": "deployment",
+      "lines": 257
+    },
+    "src/deployment/features.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-features-rs",
+      "subsystem": "deployment",
+      "lines": 121
+    },
+    "src/deployment/installer.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-installer-rs",
+      "subsystem": "deployment",
+      "lines": 1054
+    },
+    "src/deployment/manifest.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-manifest-rs",
+      "subsystem": "deployment",
+      "lines": 207
+    },
+    "src/deployment/mod.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-mod-rs",
+      "subsystem": "deployment",
+      "lines": 44
+    },
+    "src/deployment/paths.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-paths-rs",
+      "subsystem": "deployment",
+      "lines": 332
+    },
+    "src/deployment/promotion.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-promotion-rs",
+      "subsystem": "deployment",
+      "lines": 188
+    },
+    "src/deployment/rollback.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-rollback-rs",
+      "subsystem": "deployment",
+      "lines": 62
+    },
+    "src/deployment/updater.rs": {
+      "doc_page": "/docs/codebase/deployment",
+      "doc_anchor": "#src-deployment-updater-rs",
+      "subsystem": "deployment",
+      "lines": 211
+    },
+    "src/eval/fixture.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-fixture-rs",
+      "subsystem": "eval",
+      "lines": 235
+    },
+    "src/eval/mod.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-mod-rs",
+      "subsystem": "eval",
+      "lines": 14
+    },
+    "src/eval/runner.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-runner-rs",
+      "subsystem": "eval",
+      "lines": 136
+    },
+    "src/eval/scenarios/mod.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-mod-rs",
+      "subsystem": "eval",
+      "lines": 99
+    },
+    "src/eval/scenarios/scenario_a.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_a-rs",
+      "subsystem": "eval",
+      "lines": 125
+    },
+    "src/eval/scenarios/scenario_b.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_b-rs",
+      "subsystem": "eval",
+      "lines": 120
+    },
+    "src/eval/scenarios/scenario_c.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_c-rs",
+      "subsystem": "eval",
+      "lines": 231
+    },
+    "src/eval/scenarios/scenario_d.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_d-rs",
+      "subsystem": "eval",
+      "lines": 107
+    },
+    "src/eval/scenarios/scenario_e.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_e-rs",
+      "subsystem": "eval",
+      "lines": 112
+    },
+    "src/eval/scenarios/scenario_f.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_f-rs",
+      "subsystem": "eval",
+      "lines": 248
+    },
+    "src/eval/scenarios/scenario_g.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_g-rs",
+      "subsystem": "eval",
+      "lines": 143
+    },
+    "src/eval/scenarios/scenario_h.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scenarios-scenario_h-rs",
+      "subsystem": "eval",
+      "lines": 133
+    },
+    "src/eval/scorecard.rs": {
+      "doc_page": "/docs/codebase/eval",
+      "doc_anchor": "#src-eval-scorecard-rs",
+      "subsystem": "eval",
+      "lines": 243
+    },
+    "src/events/bus.rs": {
+      "doc_page": "/docs/codebase/events",
+      "doc_anchor": "#src-events-bus-rs",
+      "subsystem": "events",
+      "lines": 326
+    },
+    "src/events/envelope.rs": {
+      "doc_page": "/docs/codebase/events",
+      "doc_anchor": "#src-events-envelope-rs",
+      "subsystem": "events",
+      "lines": 259
+    },
+    "src/events/mod.rs": {
+      "doc_page": "/docs/codebase/events",
+      "doc_anchor": "#src-events-mod-rs",
+      "subsystem": "events",
+      "lines": 11
+    },
+    "src/events/types.rs": {
+      "doc_page": "/docs/codebase/events",
+      "doc_anchor": "#src-events-types-rs",
+      "subsystem": "events",
+      "lines": 1501
+    },
+    "src/git/attribution.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-attribution-rs",
+      "subsystem": "git",
+      "lines": 242
+    },
+    "src/git/authorization.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-authorization-rs",
+      "subsystem": "git",
+      "lines": 465
+    },
+    "src/git/drift.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-drift-rs",
+      "subsystem": "git",
+      "lines": 194
+    },
+    "src/git/hosting.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-hosting-rs",
+      "subsystem": "git",
+      "lines": 309
+    },
+    "src/git/integration.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-integration-rs",
+      "subsystem": "git",
+      "lines": 404
+    },
+    "src/git/mod.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-mod-rs",
+      "subsystem": "git",
+      "lines": 458
+    },
+    "src/git/probe.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-probe-rs",
+      "subsystem": "git",
+      "lines": 62
+    },
+    "src/git/stash.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-stash-rs",
+      "subsystem": "git",
+      "lines": 193
+    },
+    "src/git/trailers.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-trailers-rs",
+      "subsystem": "git",
+      "lines": 175
+    },
+    "src/git/worktree.rs": {
+      "doc_page": "/docs/codebase/git",
+      "doc_anchor": "#src-git-worktree-rs",
+      "subsystem": "git",
+      "lines": 491
+    },
+    "src/ids/agent.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-agent-rs",
+      "subsystem": "ids",
+      "lines": 124
+    },
+    "src/ids/approval.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-approval-rs",
+      "subsystem": "ids",
+      "lines": 78
+    },
+    "src/ids/artifact.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-artifact-rs",
+      "subsystem": "ids",
+      "lines": 124
+    },
+    "src/ids/check.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-check-rs",
+      "subsystem": "ids",
+      "lines": 110
+    },
+    "src/ids/checkpoint.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-checkpoint-rs",
+      "subsystem": "ids",
+      "lines": 124
+    },
+    "src/ids/event.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-event-rs",
+      "subsystem": "ids",
+      "lines": 124
+    },
+    "src/ids/execution.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-execution-rs",
+      "subsystem": "ids",
+      "lines": 123
+    },
+    "src/ids/execution_run.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-execution_run-rs",
+      "subsystem": "ids",
+      "lines": 116
+    },
+    "src/ids/handoff.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-handoff-rs",
+      "subsystem": "ids",
+      "lines": 123
+    },
+    "src/ids/job.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-job-rs",
+      "subsystem": "ids",
+      "lines": 127
+    },
+    "src/ids/mission.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-mission-rs",
+      "subsystem": "ids",
+      "lines": 6
+    },
+    "src/ids/mod.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-mod-rs",
+      "subsystem": "ids",
+      "lines": 39
+    },
+    "src/ids/policy.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-policy-rs",
+      "subsystem": "ids",
+      "lines": 78
+    },
+    "src/ids/session.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-session-rs",
+      "subsystem": "ids",
+      "lines": 123
+    },
+    "src/ids/task.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-task-rs",
+      "subsystem": "ids",
+      "lines": 248
+    },
+    "src/ids/task_graph.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-task_graph-rs",
+      "subsystem": "ids",
+      "lines": 135
+    },
+    "src/ids/tool.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-tool-rs",
+      "subsystem": "ids",
+      "lines": 123
+    },
+    "src/ids/workflow.rs": {
+      "doc_page": "/docs/codebase/ids",
+      "doc_anchor": "#src-ids-workflow-rs",
+      "subsystem": "ids",
+      "lines": 207
+    },
+    "src/init/doctor.rs": {
+      "doc_page": "/docs/codebase/init",
+      "doc_anchor": "#src-init-doctor-rs",
+      "subsystem": "init",
+      "lines": 429
+    },
+    "src/init/instance.rs": {
+      "doc_page": "/docs/codebase/init",
+      "doc_anchor": "#src-init-instance-rs",
+      "subsystem": "init",
+      "lines": 591
+    },
+    "src/init/lifecycle.rs": {
+      "doc_page": "/docs/codebase/init",
+      "doc_anchor": "#src-init-lifecycle-rs",
+      "subsystem": "init",
+      "lines": 486
+    },
+    "src/init/mod.rs": {
+      "doc_page": "/docs/codebase/init",
+      "doc_anchor": "#src-init-mod-rs",
+      "subsystem": "init",
+      "lines": 19
+    },
+    "src/interaction/action.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-action-rs",
+      "subsystem": "interaction",
+      "lines": 253
+    },
+    "src/interaction/approval.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-approval-rs",
+      "subsystem": "interaction",
+      "lines": 173
+    },
+    "src/interaction/commands.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-commands-rs",
+      "subsystem": "interaction",
+      "lines": 2684
+    },
+    "src/interaction/continuation.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-continuation-rs",
+      "subsystem": "interaction",
+      "lines": 2614
+    },
+    "src/interaction/decision.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-decision-rs",
+      "subsystem": "interaction",
+      "lines": 817
+    },
+    "src/interaction/events.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-events-rs",
+      "subsystem": "interaction",
+      "lines": 1007
+    },
+    "src/interaction/mentions.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-mentions-rs",
+      "subsystem": "interaction",
+      "lines": 650
+    },
+    "src/interaction/mod.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-mod-rs",
+      "subsystem": "interaction",
+      "lines": 53
+    },
+    "src/interaction/parser.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-parser-rs",
+      "subsystem": "interaction",
+      "lines": 368
+    },
+    "src/interaction/runner.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-runner-rs",
+      "subsystem": "interaction",
+      "lines": 2613
+    },
+    "src/interaction/session.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-session-rs",
+      "subsystem": "interaction",
+      "lines": 1017
+    },
+    "src/interaction/state.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-state-rs",
+      "subsystem": "interaction",
+      "lines": 160
+    },
+    "src/interaction/user_commands.rs": {
+      "doc_page": "/docs/codebase/interaction",
+      "doc_anchor": "#src-interaction-user_commands-rs",
+      "subsystem": "interaction",
+      "lines": 1972
+    },
+    "src/kernel/cancellation.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-cancellation-rs",
+      "subsystem": "kernel",
+      "lines": 172
+    },
+    "src/kernel/change.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-change-rs",
+      "subsystem": "kernel",
+      "lines": 591
+    },
+    "src/kernel/hash.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-hash-rs",
+      "subsystem": "kernel",
+      "lines": 33
+    },
+    "src/kernel/invariants.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-invariants-rs",
+      "subsystem": "kernel",
+      "lines": 375
+    },
+    "src/kernel/memory.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-memory-rs",
+      "subsystem": "kernel",
+      "lines": 665
+    },
+    "src/kernel/mod.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-mod-rs",
+      "subsystem": "kernel",
+      "lines": 34
+    },
+    "src/kernel/plan.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-plan-rs",
+      "subsystem": "kernel",
+      "lines": 876
+    },
+    "src/kernel/seams/context.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-context-rs",
+      "subsystem": "kernel",
+      "lines": 525
+    },
+    "src/kernel/seams/escalation.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-escalation-rs",
+      "subsystem": "kernel",
+      "lines": 213
+    },
+    "src/kernel/seams/execution.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-execution-rs",
+      "subsystem": "kernel",
+      "lines": 336
+    },
+    "src/kernel/seams/mod.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-mod-rs",
+      "subsystem": "kernel",
+      "lines": 55
+    },
+    "src/kernel/seams/planner.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-planner-rs",
+      "subsystem": "kernel",
+      "lines": 857
+    },
+    "src/kernel/seams/policy.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-policy-rs",
+      "subsystem": "kernel",
+      "lines": 364
+    },
+    "src/kernel/seams/recovery.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-recovery-rs",
+      "subsystem": "kernel",
+      "lines": 275
+    },
+    "src/kernel/seams/scheduler.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-scheduler-rs",
+      "subsystem": "kernel",
+      "lines": 133
+    },
+    "src/kernel/seams/verifier.rs": {
+      "doc_page": "/docs/codebase/kernel",
+      "doc_anchor": "#src-kernel-seams-verifier-rs",
+      "subsystem": "kernel",
+      "lines": 58
+    },
+    "src/memory/continuity.rs": {
+      "doc_page": "/docs/codebase/memory",
+      "doc_anchor": "#src-memory-continuity-rs",
+      "subsystem": "memory",
+      "lines": 237
+    },
+    "src/memory/mod.rs": {
+      "doc_page": "/docs/codebase/memory",
+      "doc_anchor": "#src-memory-mod-rs",
+      "subsystem": "memory",
+      "lines": 30
+    },
+    "src/memory/reconciler.rs": {
+      "doc_page": "/docs/codebase/memory",
+      "doc_anchor": "#src-memory-reconciler-rs",
+      "subsystem": "memory",
+      "lines": 146
+    },
+    "src/memory/repository.rs": {
+      "doc_page": "/docs/codebase/memory",
+      "doc_anchor": "#src-memory-repository-rs",
+      "subsystem": "memory",
+      "lines": 1620
+    },
+    "src/memory/retrieval.rs": {
+      "doc_page": "/docs/codebase/memory",
+      "doc_anchor": "#src-memory-retrieval-rs",
+      "subsystem": "memory",
+      "lines": 233
+    },
+    "src/memory/types.rs": {
+      "doc_page": "/docs/codebase/memory",
+      "doc_anchor": "#src-memory-types-rs",
+      "subsystem": "memory",
+      "lines": 3
+    },
+    "src/model/catalog.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-catalog-rs",
+      "subsystem": "model",
+      "lines": 657
+    },
+    "src/model/mod.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-mod-rs",
+      "subsystem": "model",
+      "lines": 22
+    },
+    "src/model/persistence/invocation.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-persistence-invocation-rs",
+      "subsystem": "model",
+      "lines": 434
+    },
+    "src/model/persistence/mod.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-persistence-mod-rs",
+      "subsystem": "model",
+      "lines": 5
+    },
+    "src/model/pricing.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-pricing-rs",
+      "subsystem": "model",
+      "lines": 150
+    },
+    "src/model/protocol.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-protocol-rs",
+      "subsystem": "model",
+      "lines": 384
+    },
+    "src/model/provider/endpoint.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-provider-endpoint-rs",
+      "subsystem": "model",
+      "lines": 399
+    },
+    "src/model/provider/mod.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-provider-mod-rs",
+      "subsystem": "model",
+      "lines": 146
+    },
+    "src/model/provider/nvidia.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-provider-nvidia-rs",
+      "subsystem": "model",
+      "lines": 1778
+    },
+    "src/model/provider/nvidia_metadata.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-provider-nvidia_metadata-rs",
+      "subsystem": "model",
+      "lines": 1215
+    },
+    "src/model/provider/sse.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-provider-sse-rs",
+      "subsystem": "model",
+      "lines": 1012
+    },
+    "src/model/router/health.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-router-health-rs",
+      "subsystem": "model",
+      "lines": 554
+    },
+    "src/model/router/mod.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-router-mod-rs",
+      "subsystem": "model",
+      "lines": 11
+    },
+    "src/model/router/recovery.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-router-recovery-rs",
+      "subsystem": "model",
+      "lines": 523
+    },
+    "src/model/router/resolver.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-router-resolver-rs",
+      "subsystem": "model",
+      "lines": 1088
+    },
+    "src/model/types.rs": {
+      "doc_page": "/docs/codebase/model",
+      "doc_anchor": "#src-model-types-rs",
+      "subsystem": "model",
+      "lines": 544
+    },
+    "src/persistence/artifacts/fs_store.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-artifacts-fs_store-rs",
+      "subsystem": "persistence",
+      "lines": 355
+    },
+    "src/persistence/artifacts/mod.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-artifacts-mod-rs",
+      "subsystem": "persistence",
+      "lines": 15
+    },
+    "src/persistence/artifacts/quota.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-artifacts-quota-rs",
+      "subsystem": "persistence",
+      "lines": 237
+    },
+    "src/persistence/artifacts/service.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-artifacts-service-rs",
+      "subsystem": "persistence",
+      "lines": 1168
+    },
+    "src/persistence/mod.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-mod-rs",
+      "subsystem": "persistence",
+      "lines": 18
+    },
+    "src/persistence/paths.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-paths-rs",
+      "subsystem": "persistence",
+      "lines": 83
+    },
+    "src/persistence/sqlite/mod.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-mod-rs",
+      "subsystem": "persistence",
+      "lines": 15
+    },
+    "src/persistence/sqlite/pool.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-pool-rs",
+      "subsystem": "persistence",
+      "lines": 67
+    },
+    "src/persistence/sqlite/repositories/agent.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-agent-rs",
+      "subsystem": "persistence",
+      "lines": 236
+    },
+    "src/persistence/sqlite/repositories/agent_handoff.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-agent_handoff-rs",
+      "subsystem": "persistence",
+      "lines": 240
+    },
+    "src/persistence/sqlite/repositories/event.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-event-rs",
+      "subsystem": "persistence",
+      "lines": 275
+    },
+    "src/persistence/sqlite/repositories/execution_run.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-execution_run-rs",
+      "subsystem": "persistence",
+      "lines": 497
+    },
+    "src/persistence/sqlite/repositories/lifecycle.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-lifecycle-rs",
+      "subsystem": "persistence",
+      "lines": 1162
+    },
+    "src/persistence/sqlite/repositories/mission.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-mission-rs",
+      "subsystem": "persistence",
+      "lines": 563
+    },
+    "src/persistence/sqlite/repositories/mod.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-mod-rs",
+      "subsystem": "persistence",
+      "lines": 477
+    },
+    "src/persistence/sqlite/repositories/report.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-report-rs",
+      "subsystem": "persistence",
+      "lines": 180
+    },
+    "src/persistence/sqlite/repositories/row.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-row-rs",
+      "subsystem": "persistence",
+      "lines": 105
+    },
+    "src/persistence/sqlite/repositories/session.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-session-rs",
+      "subsystem": "persistence",
+      "lines": 261
+    },
+    "src/persistence/sqlite/repositories/system_state.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-system_state-rs",
+      "subsystem": "persistence",
+      "lines": 167
+    },
+    "src/persistence/sqlite/repositories/task.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-task-rs",
+      "subsystem": "persistence",
+      "lines": 923
+    },
+    "src/persistence/sqlite/repositories/task_graph.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-task_graph-rs",
+      "subsystem": "persistence",
+      "lines": 604
+    },
+    "src/persistence/sqlite/repositories/telemetry.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-repositories-telemetry-rs",
+      "subsystem": "persistence",
+      "lines": 279
+    },
+    "src/persistence/sqlite/schema.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-schema-rs",
+      "subsystem": "persistence",
+      "lines": 243
+    },
+    "src/persistence/sqlite/transaction.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-sqlite-transaction-rs",
+      "subsystem": "persistence",
+      "lines": 529
+    },
+    "src/persistence/streams/file_stream.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-streams-file_stream-rs",
+      "subsystem": "persistence",
+      "lines": 200
+    },
+    "src/persistence/streams/mod.rs": {
+      "doc_page": "/docs/codebase/persistence",
+      "doc_anchor": "#src-persistence-streams-mod-rs",
+      "subsystem": "persistence",
+      "lines": 7
+    },
+    "src/pipeline/capture.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-capture-rs",
+      "subsystem": "pipeline",
+      "lines": 118
+    },
+    "src/pipeline/dedup.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-dedup-rs",
+      "subsystem": "pipeline",
+      "lines": 472
+    },
+    "src/pipeline/dispatcher.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-dispatcher-rs",
+      "subsystem": "pipeline",
+      "lines": 585
+    },
+    "src/pipeline/error.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-error-rs",
+      "subsystem": "pipeline",
+      "lines": 267
+    },
+    "src/pipeline/mod.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-mod-rs",
+      "subsystem": "pipeline",
+      "lines": 21
+    },
+    "src/pipeline/runner.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-runner-rs",
+      "subsystem": "pipeline",
+      "lines": 344
+    },
+    "src/pipeline/stages/approval_resolution.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-approval_resolution-rs",
+      "subsystem": "pipeline",
+      "lines": 379
+    },
+    "src/pipeline/stages/capability_check.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-capability_check-rs",
+      "subsystem": "pipeline",
+      "lines": 138
+    },
+    "src/pipeline/stages/capture_normalization.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-capture_normalization-rs",
+      "subsystem": "pipeline",
+      "lines": 300
+    },
+    "src/pipeline/stages/decoding.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-decoding-rs",
+      "subsystem": "pipeline",
+      "lines": 80
+    },
+    "src/pipeline/stages/execution.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-execution-rs",
+      "subsystem": "pipeline",
+      "lines": 68
+    },
+    "src/pipeline/stages/mod.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-mod-rs",
+      "subsystem": "pipeline",
+      "lines": 42
+    },
+    "src/pipeline/stages/policy_gate.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-policy_gate-rs",
+      "subsystem": "pipeline",
+      "lines": 145
+    },
+    "src/pipeline/stages/resolution.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-resolution-rs",
+      "subsystem": "pipeline",
+      "lines": 41
+    },
+    "src/pipeline/stages/resource_scope.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-resource_scope-rs",
+      "subsystem": "pipeline",
+      "lines": 475
+    },
+    "src/pipeline/stages/schema_validation.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-schema_validation-rs",
+      "subsystem": "pipeline",
+      "lines": 207
+    },
+    "src/pipeline/stages/semantic_validation.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-semantic_validation-rs",
+      "subsystem": "pipeline",
+      "lines": 92
+    },
+    "src/pipeline/stages/telemetry_record.rs": {
+      "doc_page": "/docs/codebase/pipeline",
+      "doc_anchor": "#src-pipeline-stages-telemetry_record-rs",
+      "subsystem": "pipeline",
+      "lines": 60
+    },
+    "src/planning/constraints.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-constraints-rs",
+      "subsystem": "planning",
+      "lines": 364
+    },
+    "src/planning/metrics.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-metrics-rs",
+      "subsystem": "planning",
+      "lines": 257
+    },
+    "src/planning/mod.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-mod-rs",
+      "subsystem": "planning",
+      "lines": 44
+    },
+    "src/planning/projections/frontmatter.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-projections-frontmatter-rs",
+      "subsystem": "planning",
+      "lines": 142
+    },
+    "src/planning/projections/mission.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-projections-mission-rs",
+      "subsystem": "planning",
+      "lines": 94
+    },
+    "src/planning/projections/mod.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-projections-mod-rs",
+      "subsystem": "planning",
+      "lines": 113
+    },
+    "src/planning/projections/plan.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-projections-plan-rs",
+      "subsystem": "planning",
+      "lines": 114
+    },
+    "src/planning/projections/renderer.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-projections-renderer-rs",
+      "subsystem": "planning",
+      "lines": 7
+    },
+    "src/planning/projections/requirements.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-projections-requirements-rs",
+      "subsystem": "planning",
+      "lines": 101
+    },
+    "src/planning/projections/state.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-projections-state-rs",
+      "subsystem": "planning",
+      "lines": 103
+    },
+    "src/planning/requirements.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-requirements-rs",
+      "subsystem": "planning",
+      "lines": 603
+    },
+    "src/planning/review.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-review-rs",
+      "subsystem": "planning",
+      "lines": 3447
+    },
+    "src/planning/risks.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-risks-rs",
+      "subsystem": "planning",
+      "lines": 262
+    },
+    "src/planning/service.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-service-rs",
+      "subsystem": "planning",
+      "lines": 2543
+    },
+    "src/planning/validation.rs": {
+      "doc_page": "/docs/codebase/planning",
+      "doc_anchor": "#src-planning-validation-rs",
+      "subsystem": "planning",
+      "lines": 859
+    },
+    "src/platform/capabilities.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-capabilities-rs",
+      "subsystem": "platform",
+      "lines": 279
+    },
+    "src/platform/errors.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-errors-rs",
+      "subsystem": "platform",
+      "lines": 226
+    },
+    "src/platform/filesystem.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-filesystem-rs",
+      "subsystem": "platform",
+      "lines": 362
+    },
+    "src/platform/macos.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-macos-rs",
+      "subsystem": "platform",
+      "lines": 366
+    },
+    "src/platform/mod.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-mod-rs",
+      "subsystem": "platform",
+      "lines": 253
+    },
+    "src/platform/permissions.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-permissions-rs",
+      "subsystem": "platform",
+      "lines": 103
+    },
+    "src/platform/process.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-process-rs",
+      "subsystem": "platform",
+      "lines": 398
+    },
+    "src/platform/resources.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-resources-rs",
+      "subsystem": "platform",
+      "lines": 280
+    },
+    "src/platform/sandbox.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-sandbox-rs",
+      "subsystem": "platform",
+      "lines": 189
+    },
+    "src/platform/shell.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-shell-rs",
+      "subsystem": "platform",
+      "lines": 205
+    },
+    "src/platform/terminal.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-terminal-rs",
+      "subsystem": "platform",
+      "lines": 141
+    },
+    "src/platform/windows/acl.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-windows-acl-rs",
+      "subsystem": "platform",
+      "lines": 122
+    },
+    "src/platform/windows/conpty.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-windows-conpty-rs",
+      "subsystem": "platform",
+      "lines": 164
+    },
+    "src/platform/windows/job.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-windows-job-rs",
+      "subsystem": "platform",
+      "lines": 471
+    },
+    "src/platform/windows/mod.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-windows-mod-rs",
+      "subsystem": "platform",
+      "lines": 147
+    },
+    "src/platform/windows/path.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-windows-path-rs",
+      "subsystem": "platform",
+      "lines": 274
+    },
+    "src/platform/windows/shell.rs": {
+      "doc_page": "/docs/codebase/platform",
+      "doc_anchor": "#src-platform-windows-shell-rs",
+      "subsystem": "platform",
+      "lines": 207
+    },
+    "src/policy/approval/adapter.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-approval-adapter-rs",
+      "subsystem": "policy",
+      "lines": 216
+    },
+    "src/policy/approval/channel.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-approval-channel-rs",
+      "subsystem": "policy",
+      "lines": 46
+    },
+    "src/policy/approval/coordinator.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-approval-coordinator-rs",
+      "subsystem": "policy",
+      "lines": 822
+    },
+    "src/policy/approval/explanation.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-approval-explanation-rs",
+      "subsystem": "policy",
+      "lines": 98
+    },
+    "src/policy/approval/grant.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-approval-grant-rs",
+      "subsystem": "policy",
+      "lines": 307
+    },
+    "src/policy/approval/mod.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-approval-mod-rs",
+      "subsystem": "policy",
+      "lines": 293
+    },
+    "src/policy/audit.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-audit-rs",
+      "subsystem": "policy",
+      "lines": 281
+    },
+    "src/policy/defaults.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-defaults-rs",
+      "subsystem": "policy",
+      "lines": 227
+    },
+    "src/policy/destination.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-destination-rs",
+      "subsystem": "policy",
+      "lines": 627
+    },
+    "src/policy/effective.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-effective-rs",
+      "subsystem": "policy",
+      "lines": 488
+    },
+    "src/policy/file.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-file-rs",
+      "subsystem": "policy",
+      "lines": 61
+    },
+    "src/policy/layers.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-layers-rs",
+      "subsystem": "policy",
+      "lines": 182
+    },
+    "src/policy/matcher.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-matcher-rs",
+      "subsystem": "policy",
+      "lines": 612
+    },
+    "src/policy/mod.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-mod-rs",
+      "subsystem": "policy",
+      "lines": 27
+    },
+    "src/policy/rule.rs": {
+      "doc_page": "/docs/codebase/policy",
+      "doc_anchor": "#src-policy-rule-rs",
+      "subsystem": "policy",
+      "lines": 96
+    },
+    "src/process/admission.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-admission-rs",
+      "subsystem": "process",
+      "lines": 137
+    },
+    "src/process/confinement.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-confinement-rs",
+      "subsystem": "process",
+      "lines": 193
+    },
+    "src/process/env.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-env-rs",
+      "subsystem": "process",
+      "lines": 615
+    },
+    "src/process/hardened.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-hardened-rs",
+      "subsystem": "process",
+      "lines": 105
+    },
+    "src/process/identity.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-identity-rs",
+      "subsystem": "process",
+      "lines": 128
+    },
+    "src/process/job.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-job-rs",
+      "subsystem": "process",
+      "lines": 1763
+    },
+    "src/process/mod.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-mod-rs",
+      "subsystem": "process",
+      "lines": 43
+    },
+    "src/process/spool.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-spool-rs",
+      "subsystem": "process",
+      "lines": 430
+    },
+    "src/process/supervisor.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-supervisor-rs",
+      "subsystem": "process",
+      "lines": 279
+    },
+    "src/process/tree.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-tree-rs",
+      "subsystem": "process",
+      "lines": 155
+    },
+    "src/process/types.rs": {
+      "doc_page": "/docs/codebase/process",
+      "doc_anchor": "#src-process-types-rs",
+      "subsystem": "process",
+      "lines": 40
+    },
+    "src/prompt/builtins.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-builtins-rs",
+      "subsystem": "prompt",
+      "lines": 351
+    },
+    "src/prompt/catalog.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-catalog-rs",
+      "subsystem": "prompt",
+      "lines": 1420
+    },
+    "src/prompt/compiler.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-compiler-rs",
+      "subsystem": "prompt",
+      "lines": 1130
+    },
+    "src/prompt/composer.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-composer-rs",
+      "subsystem": "prompt",
+      "lines": 508
+    },
+    "src/prompt/context.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-context-rs",
+      "subsystem": "prompt",
+      "lines": 836
+    },
+    "src/prompt/contract.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-contract-rs",
+      "subsystem": "prompt",
+      "lines": 1233
+    },
+    "src/prompt/error.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-error-rs",
+      "subsystem": "prompt",
+      "lines": 79
+    },
+    "src/prompt/mod.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-mod-rs",
+      "subsystem": "prompt",
+      "lines": 53
+    },
+    "src/prompt/model_profile.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-model_profile-rs",
+      "subsystem": "prompt",
+      "lines": 360
+    },
+    "src/prompt/parameter.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-parameter-rs",
+      "subsystem": "prompt",
+      "lines": 20
+    },
+    "src/prompt/provenance.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-provenance-rs",
+      "subsystem": "prompt",
+      "lines": 346
+    },
+    "src/prompt/reachability.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-reachability-rs",
+      "subsystem": "prompt",
+      "lines": 222
+    },
+    "src/prompt/reference.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-reference-rs",
+      "subsystem": "prompt",
+      "lines": 246
+    },
+    "src/prompt/renderer.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-renderer-rs",
+      "subsystem": "prompt",
+      "lines": 117
+    },
+    "src/prompt/strategy.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-strategy-rs",
+      "subsystem": "prompt",
+      "lines": 163
+    },
+    "src/prompt/v2.rs": {
+      "doc_page": "/docs/codebase/prompt",
+      "doc_anchor": "#src-prompt-v2-rs",
+      "subsystem": "prompt",
+      "lines": 565
+    },
+    "src/recovery/adapter.rs": {
+      "doc_page": "/docs/codebase/recovery",
+      "doc_anchor": "#src-recovery-adapter-rs",
+      "subsystem": "recovery",
+      "lines": 503
+    },
+    "src/recovery/budget.rs": {
+      "doc_page": "/docs/codebase/recovery",
+      "doc_anchor": "#src-recovery-budget-rs",
+      "subsystem": "recovery",
+      "lines": 1038
+    },
+    "src/recovery/classifier.rs": {
+      "doc_page": "/docs/codebase/recovery",
+      "doc_anchor": "#src-recovery-classifier-rs",
+      "subsystem": "recovery",
+      "lines": 357
+    },
+    "src/recovery/mod.rs": {
+      "doc_page": "/docs/codebase/recovery",
+      "doc_anchor": "#src-recovery-mod-rs",
+      "subsystem": "recovery",
+      "lines": 22
+    },
+    "src/recovery/replan.rs": {
+      "doc_page": "/docs/codebase/recovery",
+      "doc_anchor": "#src-recovery-replan-rs",
+      "subsystem": "recovery",
+      "lines": 447
+    },
+    "src/release/hygiene.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-hygiene-rs",
+      "subsystem": "release",
+      "lines": 127
+    },
+    "src/release/integrity.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-integrity-rs",
+      "subsystem": "release",
+      "lines": 302
+    },
+    "src/release/manifest.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-manifest-rs",
+      "subsystem": "release",
+      "lines": 252
+    },
+    "src/release/mod.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-mod-rs",
+      "subsystem": "release",
+      "lines": 37
+    },
+    "src/release/provenance.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-provenance-rs",
+      "subsystem": "release",
+      "lines": 230
+    },
+    "src/release/sbom.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-sbom-rs",
+      "subsystem": "release",
+      "lines": 157
+    },
+    "src/release/status.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-status-rs",
+      "subsystem": "release",
+      "lines": 412
+    },
+    "src/release/version.rs": {
+      "doc_page": "/docs/codebase/release",
+      "doc_anchor": "#src-release-version-rs",
+      "subsystem": "release",
+      "lines": 62
+    },
+    "src/repo/cache.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-cache-rs",
+      "subsystem": "repo",
+      "lines": 494
+    },
+    "src/repo/drift.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-drift-rs",
+      "subsystem": "repo",
+      "lines": 738
+    },
+    "src/repo/extract/manifest.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-extract-manifest-rs",
+      "subsystem": "repo",
+      "lines": 428
+    },
+    "src/repo/extract/mod.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-extract-mod-rs",
+      "subsystem": "repo",
+      "lines": 9
+    },
+    "src/repo/extract/python.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-extract-python-rs",
+      "subsystem": "repo",
+      "lines": 390
+    },
+    "src/repo/extract/rust.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-extract-rust-rs",
+      "subsystem": "repo",
+      "lines": 541
+    },
+    "src/repo/extract/typescript.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-extract-typescript-rs",
+      "subsystem": "repo",
+      "lines": 477
+    },
+    "src/repo/graph.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-graph-rs",
+      "subsystem": "repo",
+      "lines": 738
+    },
+    "src/repo/lsp.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-lsp-rs",
+      "subsystem": "repo",
+      "lines": 1021
+    },
+    "src/repo/mod.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-mod-rs",
+      "subsystem": "repo",
+      "lines": 19
+    },
+    "src/repo/query.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-query-rs",
+      "subsystem": "repo",
+      "lines": 1169
+    },
+    "src/repo/scanner.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-scanner-rs",
+      "subsystem": "repo",
+      "lines": 804
+    },
+    "src/repo/types.rs": {
+      "doc_page": "/docs/codebase/repo",
+      "doc_anchor": "#src-repo-types-rs",
+      "subsystem": "repo",
+      "lines": 798
+    },
+    "src/report/evidence.rs": {
+      "doc_page": "/docs/codebase/report",
+      "doc_anchor": "#src-report-evidence-rs",
+      "subsystem": "report",
+      "lines": 252
+    },
+    "src/report/generator.rs": {
+      "doc_page": "/docs/codebase/report",
+      "doc_anchor": "#src-report-generator-rs",
+      "subsystem": "report",
+      "lines": 582
+    },
+    "src/report/json.rs": {
+      "doc_page": "/docs/codebase/report",
+      "doc_anchor": "#src-report-json-rs",
+      "subsystem": "report",
+      "lines": 92
+    },
+    "src/report/markdown.rs": {
+      "doc_page": "/docs/codebase/report",
+      "doc_anchor": "#src-report-markdown-rs",
+      "subsystem": "report",
+      "lines": 362
+    },
+    "src/report/mod.rs": {
+      "doc_page": "/docs/codebase/report",
+      "doc_anchor": "#src-report-mod-rs",
+      "subsystem": "report",
+      "lines": 18
+    },
+    "src/report/model.rs": {
+      "doc_page": "/docs/codebase/report",
+      "doc_anchor": "#src-report-model-rs",
+      "subsystem": "report",
+      "lines": 424
+    },
+    "src/error.rs": {
+      "doc_page": "/docs/codebase/root",
+      "doc_anchor": "#src-error-rs",
+      "subsystem": "root",
+      "lines": 191
+    },
+    "src/lib.rs": {
+      "doc_page": "/docs/codebase/root",
+      "doc_anchor": "#src-lib-rs",
+      "subsystem": "root",
+      "lines": 49
+    },
+    "src/main.rs": {
+      "doc_page": "/docs/codebase/root",
+      "doc_anchor": "#src-main-rs",
+      "subsystem": "root",
+      "lines": 589
+    },
+    "src/runtime.rs": {
+      "doc_page": "/docs/codebase/root",
+      "doc_anchor": "#src-runtime-rs",
+      "subsystem": "root",
+      "lines": 7015
+    },
+    "src/runtime_authorities.rs": {
+      "doc_page": "/docs/codebase/root",
+      "doc_anchor": "#src-runtime_authorities-rs",
+      "subsystem": "root",
+      "lines": 966
+    },
+    "src/startup_progress.rs": {
+      "doc_page": "/docs/codebase/root",
+      "doc_anchor": "#src-startup_progress-rs",
+      "subsystem": "root",
+      "lines": 364
+    },
+    "src/sandbox/capabilities.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-capabilities-rs",
+      "subsystem": "sandbox",
+      "lines": 88
+    },
+    "src/sandbox/enforcement.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-enforcement-rs",
+      "subsystem": "sandbox",
+      "lines": 186
+    },
+    "src/sandbox/limits.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-limits-rs",
+      "subsystem": "sandbox",
+      "lines": 63
+    },
+    "src/sandbox/mod.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-mod-rs",
+      "subsystem": "sandbox",
+      "lines": 26
+    },
+    "src/sandbox/mode.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-mode-rs",
+      "subsystem": "sandbox",
+      "lines": 125
+    },
+    "src/sandbox/plan.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-plan-rs",
+      "subsystem": "sandbox",
+      "lines": 238
+    },
+    "src/sandbox/probe.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-probe-rs",
+      "subsystem": "sandbox",
+      "lines": 99
+    },
+    "src/sandbox/provider.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-provider-rs",
+      "subsystem": "sandbox",
+      "lines": 62
+    },
+    "src/sandbox/providers/bubblewrap.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-providers-bubblewrap-rs",
+      "subsystem": "sandbox",
+      "lines": 319
+    },
+    "src/sandbox/providers/macos.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-providers-macos-rs",
+      "subsystem": "sandbox",
+      "lines": 157
+    },
+    "src/sandbox/providers/mod.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-providers-mod-rs",
+      "subsystem": "sandbox",
+      "lines": 11
+    },
+    "src/sandbox/providers/process.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-providers-process-rs",
+      "subsystem": "sandbox",
+      "lines": 111
+    },
+    "src/sandbox/providers/windows.rs": {
+      "doc_page": "/docs/codebase/sandbox",
+      "doc_anchor": "#src-sandbox-providers-windows-rs",
+      "subsystem": "sandbox",
+      "lines": 163
+    },
+    "src/scheduler/concurrency.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-concurrency-rs",
+      "subsystem": "scheduler",
+      "lines": 202
+    },
+    "src/scheduler/engine.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-engine-rs",
+      "subsystem": "scheduler",
+      "lines": 1296
+    },
+    "src/scheduler/events.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-events-rs",
+      "subsystem": "scheduler",
+      "lines": 402
+    },
+    "src/scheduler/mod.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-mod-rs",
+      "subsystem": "scheduler",
+      "lines": 15
+    },
+    "src/scheduler/queue.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-queue-rs",
+      "subsystem": "scheduler",
+      "lines": 217
+    },
+    "src/scheduler/resources/key.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-resources-key-rs",
+      "subsystem": "scheduler",
+      "lines": 255
+    },
+    "src/scheduler/resources/lease.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-resources-lease-rs",
+      "subsystem": "scheduler",
+      "lines": 221
+    },
+    "src/scheduler/resources/manager.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-resources-manager-rs",
+      "subsystem": "scheduler",
+      "lines": 318
+    },
+    "src/scheduler/resources/mod.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-resources-mod-rs",
+      "subsystem": "scheduler",
+      "lines": 9
+    },
+    "src/scheduler/snapshot.rs": {
+      "doc_page": "/docs/codebase/scheduler",
+      "doc_anchor": "#src-scheduler-snapshot-rs",
+      "subsystem": "scheduler",
+      "lines": 74
+    },
+    "src/skill/compiler.rs": {
+      "doc_page": "/docs/codebase/skill",
+      "doc_anchor": "#src-skill-compiler-rs",
+      "subsystem": "skill",
+      "lines": 285
+    },
+    "src/skill/discovery.rs": {
+      "doc_page": "/docs/codebase/skill",
+      "doc_anchor": "#src-skill-discovery-rs",
+      "subsystem": "skill",
+      "lines": 151
+    },
+    "src/skill/manifest.rs": {
+      "doc_page": "/docs/codebase/skill",
+      "doc_anchor": "#src-skill-manifest-rs",
+      "subsystem": "skill",
+      "lines": 376
+    },
+    "src/skill/mod.rs": {
+      "doc_page": "/docs/codebase/skill",
+      "doc_anchor": "#src-skill-mod-rs",
+      "subsystem": "skill",
+      "lines": 17
+    },
+    "src/skill/registry.rs": {
+      "doc_page": "/docs/codebase/skill",
+      "doc_anchor": "#src-skill-registry-rs",
+      "subsystem": "skill",
+      "lines": 253
+    },
+    "src/skill/verification.rs": {
+      "doc_page": "/docs/codebase/skill",
+      "doc_anchor": "#src-skill-verification-rs",
+      "subsystem": "skill",
+      "lines": 90
+    },
+    "src/state/agent.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-agent-rs",
+      "subsystem": "state",
+      "lines": 131
+    },
+    "src/state/completion.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-completion-rs",
+      "subsystem": "state",
+      "lines": 159
+    },
+    "src/state/execution_run.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-execution_run-rs",
+      "subsystem": "state",
+      "lines": 173
+    },
+    "src/state/execution_run_service.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-execution_run_service-rs",
+      "subsystem": "state",
+      "lines": 307
+    },
+    "src/state/fork.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-fork-rs",
+      "subsystem": "state",
+      "lines": 181
+    },
+    "src/state/intake.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-intake-rs",
+      "subsystem": "state",
+      "lines": 220
+    },
+    "src/state/lifecycle.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-lifecycle-rs",
+      "subsystem": "state",
+      "lines": 236
+    },
+    "src/state/mission.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-mission-rs",
+      "subsystem": "state",
+      "lines": 173
+    },
+    "src/state/mission_service.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-mission_service-rs",
+      "subsystem": "state",
+      "lines": 378
+    },
+    "src/state/mod.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-mod-rs",
+      "subsystem": "state",
+      "lines": 33
+    },
+    "src/state/policy_context.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-policy_context-rs",
+      "subsystem": "state",
+      "lines": 89
+    },
+    "src/state/recovery.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-recovery-rs",
+      "subsystem": "state",
+      "lines": 262
+    },
+    "src/state/replay.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-replay-rs",
+      "subsystem": "state",
+      "lines": 140
+    },
+    "src/state/session.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-session-rs",
+      "subsystem": "state",
+      "lines": 176
+    },
+    "src/state/task.rs": {
+      "doc_page": "/docs/codebase/state",
+      "doc_anchor": "#src-state-task-rs",
+      "subsystem": "state",
+      "lines": 265
+    },
+    "src/state_machine/agent.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-agent-rs",
+      "subsystem": "state_machine",
+      "lines": 452
+    },
+    "src/state_machine/autonomy.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-autonomy-rs",
+      "subsystem": "state_machine",
+      "lines": 46
+    },
+    "src/state_machine/change_set.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-change_set-rs",
+      "subsystem": "state_machine",
+      "lines": 274
+    },
+    "src/state_machine/error.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-error-rs",
+      "subsystem": "state_machine",
+      "lines": 53
+    },
+    "src/state_machine/execution_run.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-execution_run-rs",
+      "subsystem": "state_machine",
+      "lines": 416
+    },
+    "src/state_machine/lifecycle.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-lifecycle-rs",
+      "subsystem": "state_machine",
+      "lines": 451
+    },
+    "src/state_machine/mission.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-mission-rs",
+      "subsystem": "state_machine",
+      "lines": 182
+    },
+    "src/state_machine/mod.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-mod-rs",
+      "subsystem": "state_machine",
+      "lines": 23
+    },
+    "src/state_machine/task.rs": {
+      "doc_page": "/docs/codebase/state_machine",
+      "doc_anchor": "#src-state_machine-task-rs",
+      "subsystem": "state_machine",
+      "lines": 287
+    },
+    "src/storage/migration.rs": {
+      "doc_page": "/docs/codebase/storage",
+      "doc_anchor": "#src-storage-migration-rs",
+      "subsystem": "storage",
+      "lines": 807
+    },
+    "src/storage/mod.rs": {
+      "doc_page": "/docs/codebase/storage",
+      "doc_anchor": "#src-storage-mod-rs",
+      "subsystem": "storage",
+      "lines": 629
+    },
+    "src/telemetry/collector.rs": {
+      "doc_page": "/docs/codebase/telemetry",
+      "doc_anchor": "#src-telemetry-collector-rs",
+      "subsystem": "telemetry",
+      "lines": 361
+    },
+    "src/telemetry/context.rs": {
+      "doc_page": "/docs/codebase/telemetry",
+      "doc_anchor": "#src-telemetry-context-rs",
+      "subsystem": "telemetry",
+      "lines": 136
+    },
+    "src/telemetry/inspect.rs": {
+      "doc_page": "/docs/codebase/telemetry",
+      "doc_anchor": "#src-telemetry-inspect-rs",
+      "subsystem": "telemetry",
+      "lines": 153
+    },
+    "src/telemetry/mod.rs": {
+      "doc_page": "/docs/codebase/telemetry",
+      "doc_anchor": "#src-telemetry-mod-rs",
+      "subsystem": "telemetry",
+      "lines": 15
+    },
+    "src/telemetry/redactor.rs": {
+      "doc_page": "/docs/codebase/telemetry",
+      "doc_anchor": "#src-telemetry-redactor-rs",
+      "subsystem": "telemetry",
+      "lines": 387
+    },
+    "src/telemetry/stream.rs": {
+      "doc_page": "/docs/codebase/telemetry",
+      "doc_anchor": "#src-telemetry-stream-rs",
+      "subsystem": "telemetry",
+      "lines": 162
+    },
+    "src/telemetry/types.rs": {
+      "doc_page": "/docs/codebase/telemetry",
+      "doc_anchor": "#src-telemetry-types-rs",
+      "subsystem": "telemetry",
+      "lines": 175
+    },
+    "src/tools/agent.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-agent-rs",
+      "subsystem": "tools",
+      "lines": 142
+    },
+    "src/tools/artifact/mod.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-artifact-mod-rs",
+      "subsystem": "tools",
+      "lines": 142
+    },
+    "src/tools/definition.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-definition-rs",
+      "subsystem": "tools",
+      "lines": 428
+    },
+    "src/tools/error.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-error-rs",
+      "subsystem": "tools",
+      "lines": 133
+    },
+    "src/tools/filter.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-filter-rs",
+      "subsystem": "tools",
+      "lines": 515
+    },
+    "src/tools/fs/editor.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-fs-editor-rs",
+      "subsystem": "tools",
+      "lines": 957
+    },
+    "src/tools/fs/mod.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-fs-mod-rs",
+      "subsystem": "tools",
+      "lines": 1623
+    },
+    "src/tools/fs/workspace_patch.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-fs-workspace_patch-rs",
+      "subsystem": "tools",
+      "lines": 686
+    },
+    "src/tools/git/mod.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-git-mod-rs",
+      "subsystem": "tools",
+      "lines": 762
+    },
+    "src/tools/mod.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-mod-rs",
+      "subsystem": "tools",
+      "lines": 44
+    },
+    "src/tools/process/mod.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-process-mod-rs",
+      "subsystem": "tools",
+      "lines": 334
+    },
+    "src/tools/qa/mod.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-qa-mod-rs",
+      "subsystem": "tools",
+      "lines": 412
+    },
+    "src/tools/registry.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-registry-rs",
+      "subsystem": "tools",
+      "lines": 201
+    },
+    "src/tools/repo/mod.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-repo-mod-rs",
+      "subsystem": "tools",
+      "lines": 573
+    },
+    "src/tools/risk.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-risk-rs",
+      "subsystem": "tools",
+      "lines": 294
+    },
+    "src/tools/skill.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-skill-rs",
+      "subsystem": "tools",
+      "lines": 153
+    },
+    "src/tools/terminal.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-terminal-rs",
+      "subsystem": "tools",
+      "lines": 398
+    },
+    "src/tools/web.rs": {
+      "doc_page": "/docs/codebase/tools",
+      "doc_anchor": "#src-tools-web-rs",
+      "subsystem": "tools",
+      "lines": 151
+    },
+    "src/tui/app.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-app-rs",
+      "subsystem": "tui",
+      "lines": 3552
+    },
+    "src/tui/approval.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-approval-rs",
+      "subsystem": "tui",
+      "lines": 218
+    },
+    "src/tui/binding.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-binding-rs",
+      "subsystem": "tui",
+      "lines": 144
+    },
+    "src/tui/channel.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-channel-rs",
+      "subsystem": "tui",
+      "lines": 365
+    },
+    "src/tui/component/badge.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-component-badge-rs",
+      "subsystem": "tui",
+      "lines": 72
+    },
+    "src/tui/component/code.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-component-code-rs",
+      "subsystem": "tui",
+      "lines": 113
+    },
+    "src/tui/component/diff.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-component-diff-rs",
+      "subsystem": "tui",
+      "lines": 232
+    },
+    "src/tui/component/key_hint.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-component-key_hint-rs",
+      "subsystem": "tui",
+      "lines": 63
+    },
+    "src/tui/component/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-component-mod-rs",
+      "subsystem": "tui",
+      "lines": 13
+    },
+    "src/tui/component/progress.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-component-progress-rs",
+      "subsystem": "tui",
+      "lines": 73
+    },
+    "src/tui/composer.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-composer-rs",
+      "subsystem": "tui",
+      "lines": 1965
+    },
+    "src/tui/conversation.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-conversation-rs",
+      "subsystem": "tui",
+      "lines": 1047
+    },
+    "src/tui/errors.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-errors-rs",
+      "subsystem": "tui",
+      "lines": 113
+    },
+    "src/tui/focus.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-focus-rs",
+      "subsystem": "tui",
+      "lines": 168
+    },
+    "src/tui/guard.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-guard-rs",
+      "subsystem": "tui",
+      "lines": 101
+    },
+    "src/tui/icons.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-icons-rs",
+      "subsystem": "tui",
+      "lines": 457
+    },
+    "src/tui/input/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-input-mod-rs",
+      "subsystem": "tui",
+      "lines": 5
+    },
+    "src/tui/input/text_input.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-input-text_input-rs",
+      "subsystem": "tui",
+      "lines": 581
+    },
+    "src/tui/keymap.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-keymap-rs",
+      "subsystem": "tui",
+      "lines": 229
+    },
+    "src/tui/layout/compact.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-layout-compact-rs",
+      "subsystem": "tui",
+      "lines": 39
+    },
+    "src/tui/layout/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-layout-mod-rs",
+      "subsystem": "tui",
+      "lines": 379
+    },
+    "src/tui/layout/wide.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-layout-wide-rs",
+      "subsystem": "tui",
+      "lines": 46
+    },
+    "src/tui/lifecycle.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-lifecycle-rs",
+      "subsystem": "tui",
+      "lines": 455
+    },
+    "src/tui/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-mod-rs",
+      "subsystem": "tui",
+      "lines": 61
+    },
+    "src/tui/model.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-model-rs",
+      "subsystem": "tui",
+      "lines": 4964
+    },
+    "src/tui/navigation.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-navigation-rs",
+      "subsystem": "tui",
+      "lines": 403
+    },
+    "src/tui/overlay/help.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-overlay-help-rs",
+      "subsystem": "tui",
+      "lines": 69
+    },
+    "src/tui/overlay/manager.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-overlay-manager-rs",
+      "subsystem": "tui",
+      "lines": 51
+    },
+    "src/tui/overlay/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-overlay-mod-rs",
+      "subsystem": "tui",
+      "lines": 7
+    },
+    "src/tui/palette_v2.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-palette_v2-rs",
+      "subsystem": "tui",
+      "lines": 679
+    },
+    "src/tui/registry.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-registry-rs",
+      "subsystem": "tui",
+      "lines": 602
+    },
+    "src/tui/replay.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-replay-rs",
+      "subsystem": "tui",
+      "lines": 266
+    },
+    "src/tui/routes.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-routes-rs",
+      "subsystem": "tui",
+      "lines": 737
+    },
+    "src/tui/runtime_bridge.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-runtime_bridge-rs",
+      "subsystem": "tui",
+      "lines": 2244
+    },
+    "src/tui/sanitizer.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-sanitizer-rs",
+      "subsystem": "tui",
+      "lines": 184
+    },
+    "src/tui/screens/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-screens-mod-rs",
+      "subsystem": "tui",
+      "lines": 13
+    },
+    "src/tui/screens/wizard.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-screens-wizard-rs",
+      "subsystem": "tui",
+      "lines": 3437
+    },
+    "src/tui/screens/workspace_setup.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-screens-workspace_setup-rs",
+      "subsystem": "tui",
+      "lines": 1043
+    },
+    "src/tui/shell/context_rail.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-shell-context_rail-rs",
+      "subsystem": "tui",
+      "lines": 364
+    },
+    "src/tui/shell/footer.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-shell-footer-rs",
+      "subsystem": "tui",
+      "lines": 135
+    },
+    "src/tui/shell/header.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-shell-header-rs",
+      "subsystem": "tui",
+      "lines": 200
+    },
+    "src/tui/shell/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-shell-mod-rs",
+      "subsystem": "tui",
+      "lines": 11
+    },
+    "src/tui/shell/workspace.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-shell-workspace-rs",
+      "subsystem": "tui",
+      "lines": 1624
+    },
+    "src/tui/state.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-state-rs",
+      "subsystem": "tui",
+      "lines": 159
+    },
+    "src/tui/status.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-status-rs",
+      "subsystem": "tui",
+      "lines": 127
+    },
+    "src/tui/surface/agents.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-agents-rs",
+      "subsystem": "tui",
+      "lines": 289
+    },
+    "src/tui/surface/artifacts.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-artifacts-rs",
+      "subsystem": "tui",
+      "lines": 266
+    },
+    "src/tui/surface/conversation.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-conversation-rs",
+      "subsystem": "tui",
+      "lines": 239
+    },
+    "src/tui/surface/decision.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-decision-rs",
+      "subsystem": "tui",
+      "lines": 177
+    },
+    "src/tui/surface/doctor.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-doctor-rs",
+      "subsystem": "tui",
+      "lines": 137
+    },
+    "src/tui/surface/git.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-git-rs",
+      "subsystem": "tui",
+      "lines": 208
+    },
+    "src/tui/surface/jobs.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-jobs-rs",
+      "subsystem": "tui",
+      "lines": 199
+    },
+    "src/tui/surface/mod.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-mod-rs",
+      "subsystem": "tui",
+      "lines": 78
+    },
+    "src/tui/surface/model_selector.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-model_selector-rs",
+      "subsystem": "tui",
+      "lines": 601
+    },
+    "src/tui/surface/replay.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-replay-rs",
+      "subsystem": "tui",
+      "lines": 129
+    },
+    "src/tui/surface/settings.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-settings-rs",
+      "subsystem": "tui",
+      "lines": 1506
+    },
+    "src/tui/surface/tasks.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-tasks-rs",
+      "subsystem": "tui",
+      "lines": 334
+    },
+    "src/tui/surface/telemetry.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-telemetry-rs",
+      "subsystem": "tui",
+      "lines": 162
+    },
+    "src/tui/surface/tools.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-tools-rs",
+      "subsystem": "tui",
+      "lines": 280
+    },
+    "src/tui/surface/verification.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-verification-rs",
+      "subsystem": "tui",
+      "lines": 337
+    },
+    "src/tui/surface/workflow.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-surface-workflow-rs",
+      "subsystem": "tui",
+      "lines": 907
+    },
+    "src/tui/theme.rs": {
+      "doc_page": "/docs/codebase/tui",
+      "doc_anchor": "#src-tui-theme-rs",
+      "subsystem": "tui",
+      "lines": 431
+    },
+    "src/verification/adapter.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-adapter-rs",
+      "subsystem": "verification",
+      "lines": 285
+    },
+    "src/verification/diagnostician.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-diagnostician-rs",
+      "subsystem": "verification",
+      "lines": 1170
+    },
+    "src/verification/diagnostics.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-diagnostics-rs",
+      "subsystem": "verification",
+      "lines": 527
+    },
+    "src/verification/executor.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-executor-rs",
+      "subsystem": "verification",
+      "lines": 290
+    },
+    "src/verification/gate.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-gate-rs",
+      "subsystem": "verification",
+      "lines": 1372
+    },
+    "src/verification/hierarchy.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-hierarchy-rs",
+      "subsystem": "verification",
+      "lines": 784
+    },
+    "src/verification/mod.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-mod-rs",
+      "subsystem": "verification",
+      "lines": 42
+    },
+    "src/verification/reviewer.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-reviewer-rs",
+      "subsystem": "verification",
+      "lines": 628
+    },
+    "src/verification/runners/compiler.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-runners-compiler-rs",
+      "subsystem": "verification",
+      "lines": 235
+    },
+    "src/verification/runners/deterministic.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-runners-deterministic-rs",
+      "subsystem": "verification",
+      "lines": 157
+    },
+    "src/verification/runners/diff_invariants.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-runners-diff_invariants-rs",
+      "subsystem": "verification",
+      "lines": 141
+    },
+    "src/verification/runners/mod.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-runners-mod-rs",
+      "subsystem": "verification",
+      "lines": 31
+    },
+    "src/verification/runners/static_analysis.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-runners-static_analysis-rs",
+      "subsystem": "verification",
+      "lines": 163
+    },
+    "src/verification/runners/tests.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-runners-tests-rs",
+      "subsystem": "verification",
+      "lines": 271
+    },
+    "src/verification/types.rs": {
+      "doc_page": "/docs/codebase/verification",
+      "doc_anchor": "#src-verification-types-rs",
+      "subsystem": "verification",
+      "lines": 619
+    },
+    "src/workflow/compiler.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-compiler-rs",
+      "subsystem": "workflow",
+      "lines": 514
+    },
+    "src/workflow/definition.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-definition-rs",
+      "subsystem": "workflow",
+      "lines": 707
+    },
+    "src/workflow/engine.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-engine-rs",
+      "subsystem": "workflow",
+      "lines": 1635
+    },
+    "src/workflow/error.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-error-rs",
+      "subsystem": "workflow",
+      "lines": 537
+    },
+    "src/workflow/genesis/brownfield.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-brownfield-rs",
+      "subsystem": "workflow",
+      "lines": 191
+    },
+    "src/workflow/genesis/dimension_registry.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-dimension_registry-rs",
+      "subsystem": "workflow",
+      "lines": 392
+    },
+    "src/workflow/genesis/discovery.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-discovery-rs",
+      "subsystem": "workflow",
+      "lines": 1209
+    },
+    "src/workflow/genesis/environment.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-environment-rs",
+      "subsystem": "workflow",
+      "lines": 684
+    },
+    "src/workflow/genesis/errors.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-errors-rs",
+      "subsystem": "workflow",
+      "lines": 59
+    },
+    "src/workflow/genesis/intake.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-intake-rs",
+      "subsystem": "workflow",
+      "lines": 211
+    },
+    "src/workflow/genesis/mod.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-mod-rs",
+      "subsystem": "workflow",
+      "lines": 198
+    },
+    "src/workflow/genesis/project.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-project-rs",
+      "subsystem": "workflow",
+      "lines": 545
+    },
+    "src/workflow/genesis/provenance.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-provenance-rs",
+      "subsystem": "workflow",
+      "lines": 149
+    },
+    "src/workflow/genesis/research_decision.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-research_decision-rs",
+      "subsystem": "workflow",
+      "lines": 218
+    },
+    "src/workflow/genesis/researcher.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-researcher-rs",
+      "subsystem": "workflow",
+      "lines": 438
+    },
+    "src/workflow/genesis/synthesis.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-genesis-synthesis-rs",
+      "subsystem": "workflow",
+      "lines": 332
+    },
+    "src/workflow/manifest.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-manifest-rs",
+      "subsystem": "workflow",
+      "lines": 570
+    },
+    "src/workflow/mod.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-mod-rs",
+      "subsystem": "workflow",
+      "lines": 101
+    },
+    "src/workflow/planning/adr.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-adr-rs",
+      "subsystem": "workflow",
+      "lines": 457
+    },
+    "src/workflow/planning/architecture.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-architecture-rs",
+      "subsystem": "workflow",
+      "lines": 473
+    },
+    "src/workflow/planning/architecture_synthesizer.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-architecture_synthesizer-rs",
+      "subsystem": "workflow",
+      "lines": 702
+    },
+    "src/workflow/planning/decision.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-decision-rs",
+      "subsystem": "workflow",
+      "lines": 90
+    },
+    "src/workflow/planning/invalidation.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-invalidation-rs",
+      "subsystem": "workflow",
+      "lines": 214
+    },
+    "src/workflow/planning/mod.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-mod-rs",
+      "subsystem": "workflow",
+      "lines": 389
+    },
+    "src/workflow/planning/requirements.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-requirements-rs",
+      "subsystem": "workflow",
+      "lines": 243
+    },
+    "src/workflow/planning/requirements_synthesizer.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-requirements_synthesizer-rs",
+      "subsystem": "workflow",
+      "lines": 296
+    },
+    "src/workflow/planning/risks.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-risks-rs",
+      "subsystem": "workflow",
+      "lines": 280
+    },
+    "src/workflow/planning/roadmap.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-roadmap-rs",
+      "subsystem": "workflow",
+      "lines": 825
+    },
+    "src/workflow/planning/state.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-state-rs",
+      "subsystem": "workflow",
+      "lines": 437
+    },
+    "src/workflow/planning/traceability.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-traceability-rs",
+      "subsystem": "workflow",
+      "lines": 218
+    },
+    "src/workflow/planning/validation.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-planning-validation-rs",
+      "subsystem": "workflow",
+      "lines": 353
+    },
+    "src/workflow/provenance.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-provenance-rs",
+      "subsystem": "workflow",
+      "lines": 184
+    },
+    "src/workflow/quality_gate.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-quality_gate-rs",
+      "subsystem": "workflow",
+      "lines": 462
+    },
+    "src/workflow/repository.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-repository-rs",
+      "subsystem": "workflow",
+      "lines": 900
+    },
+    "src/workflow/state.rs": {
+      "doc_page": "/docs/codebase/workflow",
+      "doc_anchor": "#src-workflow-state-rs",
+      "subsystem": "workflow",
+      "lines": 628
+    }
+  },
+  "tests": {
+    "tests/architectural_consolidation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 278,
+      "is_live": false
+    },
+    "tests/architecture_change_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 139,
+      "is_live": false
+    },
+    "tests/architecture_context_engine.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 143,
+      "is_live": false
+    },
+    "tests/architecture_credential_boundary.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 577,
+      "is_live": false
+    },
+    "tests/architecture_engineering_memory.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 131,
+      "is_live": false
+    },
+    "tests/architecture_invariants.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 775,
+      "is_live": false
+    },
+    "tests/architecture_invariants_runtime.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 620,
+      "is_live": false
+    },
+    "tests/architecture_kernel_purification.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 343,
+      "is_live": false
+    },
+    "tests/architecture_live_test_partition.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1060,
+      "is_live": false
+    },
+    "tests/architecture_persistence_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 436,
+      "is_live": false
+    },
+    "tests/architecture_planning_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 178,
+      "is_live": false
+    },
+    "tests/architecture_process_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 267,
+      "is_live": false
+    },
+    "tests/architecture_redesign_unification.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 240,
+      "is_live": false
+    },
+    "tests/architecture_repository_intelligence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 214,
+      "is_live": false
+    },
+    "tests/architecture_runtime_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 738,
+      "is_live": false
+    },
+    "tests/artifact_consolidation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 993,
+      "is_live": false
+    },
+    "tests/audit_render_inspector.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 51,
+      "is_live": false
+    },
+    "tests/checkpoint_authority_test.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 279,
+      "is_live": false
+    },
+    "tests/common/git_auth.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 233,
+      "is_live": false
+    },
+    "tests/common/mod.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 4,
+      "is_live": false
+    },
+    "tests/common/tui_fixtures.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 194,
+      "is_live": false
+    },
+    "tests/config_architecture_enforcement.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 647,
+      "is_live": false
+    },
+    "tests/config_authority_invariants.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 544,
+      "is_live": false
+    },
+    "tests/configuration_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 817,
+      "is_live": false
+    },
+    "tests/dag_consolidation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 655,
+      "is_live": false
+    },
+    "tests/dead_wiring_elimination_guards.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 392,
+      "is_live": false
+    },
+    "tests/deployment_channels.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 715,
+      "is_live": false
+    },
+    "tests/docs_contract.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 251,
+      "is_live": false
+    },
+    "tests/dynamic_model_discovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1160,
+      "is_live": false
+    },
+    "tests/execution_run_convergence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1026,
+      "is_live": false
+    },
+    "tests/fresh_session_execution_regression.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 958,
+      "is_live": false
+    },
+    "tests/genesis_adrs.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 180,
+      "is_live": false
+    },
+    "tests/genesis_architecture.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 370,
+      "is_live": false
+    },
+    "tests/genesis_brownfield.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 110,
+      "is_live": false
+    },
+    "tests/genesis_discovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 199,
+      "is_live": false
+    },
+    "tests/genesis_environment.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 153,
+      "is_live": false
+    },
+    "tests/genesis_invalidation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 460,
+      "is_live": false
+    },
+    "tests/genesis_planning_governance.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 458,
+      "is_live": false
+    },
+    "tests/genesis_requirements.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 249,
+      "is_live": false
+    },
+    "tests/genesis_research.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 185,
+      "is_live": false
+    },
+    "tests/genesis_roadmap.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 377,
+      "is_live": false
+    },
+    "tests/genesis_runtime_integration.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1513,
+      "is_live": false
+    },
+    "tests/genesis_synthesis.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 113,
+      "is_live": false
+    },
+    "tests/genesis_traceability.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 219,
+      "is_live": false
+    },
+    "tests/git_decoupled_coding.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 405,
+      "is_live": false
+    },
+    "tests/golden_agentic_workflow.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 405,
+      "is_live": false
+    },
+    "tests/golden_configuration_runtime.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 606,
+      "is_live": false
+    },
+    "tests/golden_configuration_workflow.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 172,
+      "is_live": false
+    },
+    "tests/golden_interactive_session.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 495,
+      "is_live": false
+    },
+    "tests/golden_project_genesis_planning.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 348,
+      "is_live": false
+    },
+    "tests/golden_project_genesis_research.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 243,
+      "is_live": false
+    },
+    "tests/golden_project_genesis_workflow.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 592,
+      "is_live": false
+    },
+    "tests/golden_real_model_workflow.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 407,
+      "is_live": false
+    },
+    "tests/golden_tui_2_scenarios.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 527,
+      "is_live": false
+    },
+    "tests/golden_tui_agentic_workflow.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 392,
+      "is_live": false
+    },
+    "tests/golden_tui_conversation_first.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 344,
+      "is_live": false
+    },
+    "tests/golden_tui_pty_scenario.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 333,
+      "is_live": false
+    },
+    "tests/golden_wizard_model_selection.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 755,
+      "is_live": false
+    },
+    "tests/interactive_decision_overhaul.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 505,
+      "is_live": false
+    },
+    "tests/isolation_boundary_hardening.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 231,
+      "is_live": false
+    },
+    "tests/live_model_e2e.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 941,
+      "is_live": true
+    },
+    "tests/migration_029_budget_removal.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 266,
+      "is_live": false
+    },
+    "tests/migration_030_execution_run.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 276,
+      "is_live": false
+    },
+    "tests/mission_task_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 249,
+      "is_live": false
+    },
+    "tests/october_14_audit_remediation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1014,
+      "is_live": false
+    },
+    "tests/onboarding_wizard_remediation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 768,
+      "is_live": false
+    },
+    "tests/output_hygiene.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 177,
+      "is_live": false
+    },
+    "tests/p0_execution_path_and_tui_state.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 468,
+      "is_live": false
+    },
+    "tests/p0_safety_remediation_test.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1038,
+      "is_live": false
+    },
+    "tests/p0_startup_assembly_regression.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 823,
+      "is_live": false
+    },
+    "tests/p1_remediation_test.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 811,
+      "is_live": false
+    },
+    "tests/p2_remediation_test.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 847,
+      "is_live": false
+    },
+    "tests/p3_agent_execution_test.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 584,
+      "is_live": false
+    },
+    "tests/parity.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 98,
+      "is_live": false
+    },
+    "tests/parity/capability_reporting.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 135,
+      "is_live": false
+    },
+    "tests/parity/credential_file_protection.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 135,
+      "is_live": false
+    },
+    "tests/parity/environment_isolation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 183,
+      "is_live": false
+    },
+    "tests/parity/failure_semantics.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 167,
+      "is_live": false
+    },
+    "tests/parity/filesystem_containment.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 218,
+      "is_live": false
+    },
+    "tests/parity/linux/bubblewrap_isolation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 59,
+      "is_live": false
+    },
+    "tests/parity/linux/cgroups_v2_enforcement.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 64,
+      "is_live": false
+    },
+    "tests/parity/linux/proc_starttime_protection.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 47,
+      "is_live": false
+    },
+    "tests/parity/linux/user_namespaces.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 24,
+      "is_live": false
+    },
+    "tests/parity/macos/libproc_pid_identity.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 28,
+      "is_live": false
+    },
+    "tests/parity/macos/ptmx_pty.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 21,
+      "is_live": false
+    },
+    "tests/parity/macos/rlimit_as_best_effort.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 34,
+      "is_live": false
+    },
+    "tests/parity/macos/seatbelt_profile_confinement.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 51,
+      "is_live": false
+    },
+    "tests/parity/negative/degraded_seatbelt_macos.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 37,
+      "is_live": false
+    },
+    "tests/parity/negative/unavailable_job_objects_windows.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 34,
+      "is_live": false
+    },
+    "tests/parity/negative/unsupported_fd_limit_windows.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 38,
+      "is_live": false
+    },
+    "tests/parity/negative/unsupported_filesystem_isolation_windows.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 25,
+      "is_live": false
+    },
+    "tests/parity/negative/unsupported_network_isolation_windows.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 18,
+      "is_live": false
+    },
+    "tests/parity/process_tree_termination.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 297,
+      "is_live": false
+    },
+    "tests/parity/resource_limits.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 308,
+      "is_live": false
+    },
+    "tests/parity/sandbox_fail_closed.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 150,
+      "is_live": false
+    },
+    "tests/parity/shell_execution.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 213,
+      "is_live": false
+    },
+    "tests/parity/terminal_pty.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 204,
+      "is_live": false
+    },
+    "tests/parity/windows/acl_file_protection.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 26,
+      "is_live": false
+    },
+    "tests/parity/windows/cmd_powershell_quoting.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 30,
+      "is_live": false
+    },
+    "tests/parity/windows/conpty_dimensions_resize.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 38,
+      "is_live": false
+    },
+    "tests/parity/windows/job_object_memory_limit.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 40,
+      "is_live": false
+    },
+    "tests/parity/windows/job_object_tree_termination.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 44,
+      "is_live": false
+    },
+    "tests/parity/windows/path_security_reparse_points.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 62,
+      "is_live": false
+    },
+    "tests/phase_01_events_ids_kernel.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 359,
+      "is_live": false
+    },
+    "tests/phase_01_persistence_streams_artifacts.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 246,
+      "is_live": false
+    },
+    "tests/phase_01_state_machines.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 419,
+      "is_live": false
+    },
+    "tests/phase_02_intake_completion_recovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 419,
+      "is_live": false
+    },
+    "tests/phase_02_service_bus_transactions.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 525,
+      "is_live": false
+    },
+    "tests/phase_03_autonomy_controller.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 877,
+      "is_live": false
+    },
+    "tests/phase_04_planning_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 149,
+      "is_live": false
+    },
+    "tests/phase_05_replan_reconciliation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 201,
+      "is_live": false
+    },
+    "tests/phase_05_resource_manager.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 237,
+      "is_live": false
+    },
+    "tests/phase_05_scheduler_concurrency.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 248,
+      "is_live": false
+    },
+    "tests/phase_05_task_dag_persistence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 265,
+      "is_live": false
+    },
+    "tests/phase_06_agent_runtime.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 913,
+      "is_live": false
+    },
+    "tests/phase_07_models_context_repo.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 532,
+      "is_live": false
+    },
+    "tests/phase_08_capability_registry_seams.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 443,
+      "is_live": false
+    },
+    "tests/phase_08_execution_pipeline.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 562,
+      "is_live": false
+    },
+    "tests/phase_08_process_jobs_supervisor.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 274,
+      "is_live": false
+    },
+    "tests/phase_08_tool_catalog_schemas.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 404,
+      "is_live": false
+    },
+    "tests/phase_09_interactive_approval_grants.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 727,
+      "is_live": false
+    },
+    "tests/phase_09_policy_precedence_invariants.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 741,
+      "is_live": false
+    },
+    "tests/phase_09_process_jobs_recovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 662,
+      "is_live": false
+    },
+    "tests/phase_09_sandbox_isolation_confinement.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 309,
+      "is_live": false
+    },
+    "tests/phase_10_checkpoints_crash_recovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 956,
+      "is_live": false
+    },
+    "tests/phase_10_failure_recovery_loop.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 387,
+      "is_live": false
+    },
+    "tests/phase_10_verification_hierarchy.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 620,
+      "is_live": false
+    },
+    "tests/phase_11_cli.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 343,
+      "is_live": false
+    },
+    "tests/phase_11_config.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 354,
+      "is_live": false
+    },
+    "tests/phase_11_git.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 622,
+      "is_live": false
+    },
+    "tests/phase_11_tui.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 482,
+      "is_live": false
+    },
+    "tests/phase_12_completion_reports.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 859,
+      "is_live": false
+    },
+    "tests/phase_12_eval_harness.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 146,
+      "is_live": false
+    },
+    "tests/phase_12_resource_budgets.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 142,
+      "is_live": false
+    },
+    "tests/phase_12_security_hardening.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 513,
+      "is_live": false
+    },
+    "tests/phase_12_skills_profiles.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 248,
+      "is_live": false
+    },
+    "tests/phase_12_telemetry_correlation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 306,
+      "is_live": false
+    },
+    "tests/phase_13_ad007_dependency_guards.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 337,
+      "is_live": false
+    },
+    "tests/phase_13_cockpit_views.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 194,
+      "is_live": false
+    },
+    "tests/phase_13_framebuffer_snapshots.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 155,
+      "is_live": false
+    },
+    "tests/phase_13_onboarding_config.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 353,
+      "is_live": false
+    },
+    "tests/phase_13_pty_scenarios.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 189,
+      "is_live": false
+    },
+    "tests/phase_13_terminal_tokens.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 150,
+      "is_live": false
+    },
+    "tests/phase_13_visual_review.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 99,
+      "is_live": false
+    },
+    "tests/phase_20_repository_intelligence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 562,
+      "is_live": false
+    },
+    "tests/phase_21_context_engine.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 661,
+      "is_live": false
+    },
+    "tests/phase_22_adaptive_planning.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 505,
+      "is_live": false
+    },
+    "tests/phase_23_adversarial_mutation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 565,
+      "is_live": false
+    },
+    "tests/phase_23_code_modification_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 817,
+      "is_live": false
+    },
+    "tests/phase_24_closed_loop_recovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 758,
+      "is_live": false
+    },
+    "tests/phase_25_engineering_memory.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 832,
+      "is_live": false
+    },
+    "tests/phase_26_autonomous_intent.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 683,
+      "is_live": false
+    },
+    "tests/phase_27_5_extension_seams.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 959,
+      "is_live": false
+    },
+    "tests/phase_27_declarative_boundary.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 679,
+      "is_live": false
+    },
+    "tests/phase_29_5_real_model.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1396,
+      "is_live": false
+    },
+    "tests/phase_29_6_gap_a_research_ownership.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 305,
+      "is_live": false
+    },
+    "tests/phase_29_6_gap_b_recovery_circuit_breaker.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 412,
+      "is_live": false
+    },
+    "tests/phase_29_6_gap_c_discovery_unknowns.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 327,
+      "is_live": false
+    },
+    "tests/phase_29_6_gap_d_planning_retry.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 288,
+      "is_live": false
+    },
+    "tests/phase_29_autonomous_engineering.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1093,
+      "is_live": false
+    },
+    "tests/phase_30_agentic_core.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 890,
+      "is_live": false
+    },
+    "tests/phase_31_agent_convergence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 676,
+      "is_live": false
+    },
+    "tests/phase_32_intent_understanding.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1180,
+      "is_live": false
+    },
+    "tests/phase_33_adaptive_execution.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1021,
+      "is_live": false
+    },
+    "tests/phase_35_lifecycle_governance.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 795,
+      "is_live": false
+    },
+    "tests/phase_36_1_runtime_truth.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 696,
+      "is_live": false
+    },
+    "tests/phase_36_3_truth_boundary.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 934,
+      "is_live": false
+    },
+    "tests/phase_36_4_tui_governance.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 741,
+      "is_live": false
+    },
+    "tests/phase_36_5_wiring_convergence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 728,
+      "is_live": false
+    },
+    "tests/phase_36_6_tui_truth_projection.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 480,
+      "is_live": false
+    },
+    "tests/phase_36_runtime_handoff.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 892,
+      "is_live": false
+    },
+    "tests/phase_37_authority_convergence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 580,
+      "is_live": false
+    },
+    "tests/phase_39_evidence_observability.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 527,
+      "is_live": false
+    },
+    "tests/phase_40_governed_execution.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 2317,
+      "is_live": false
+    },
+    "tests/phase_41_integrity.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1770,
+      "is_live": false
+    },
+    "tests/phase_42_production_proof.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1622,
+      "is_live": false
+    },
+    "tests/phase_43_reliability.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1484,
+      "is_live": false
+    },
+    "tests/phase_44_security_closure.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1568,
+      "is_live": false
+    },
+    "tests/phase_45_release_validation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 696,
+      "is_live": false
+    },
+    "tests/phase_46_autonomous_reliability_remediation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 650,
+      "is_live": false
+    },
+    "tests/phase_remediation_scheduler.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 600,
+      "is_live": false
+    },
+    "tests/phase_remediation_workspace_detection.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 265,
+      "is_live": false
+    },
+    "tests/planning_prompt_consolidation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1250,
+      "is_live": false
+    },
+    "tests/platform.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 16,
+      "is_live": false
+    },
+    "tests/platform/common/capabilities.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 263,
+      "is_live": false
+    },
+    "tests/platform/linux/mod.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 137,
+      "is_live": false
+    },
+    "tests/platform/macos/mod.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 142,
+      "is_live": false
+    },
+    "tests/platform/windows/mod.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 290,
+      "is_live": false
+    },
+    "tests/production_comment_hygiene.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 122,
+      "is_live": false
+    },
+    "tests/production_four_defects_remediation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 557,
+      "is_live": false
+    },
+    "tests/production_runtime_authority_identity.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 502,
+      "is_live": false
+    },
+    "tests/prompt_reachability.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 674,
+      "is_live": false
+    },
+    "tests/promptos_phase2_builtins.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 311,
+      "is_live": false
+    },
+    "tests/promptos_phase3_compiler.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 774,
+      "is_live": false
+    },
+    "tests/promptos_phase4_cutover.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 333,
+      "is_live": false
+    },
+    "tests/promptos_phase5_verification.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 899,
+      "is_live": false
+    },
+    "tests/promptos_phase6_adaptation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 813,
+      "is_live": false
+    },
+    "tests/promptos_phase7_provenance.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 773,
+      "is_live": false
+    },
+    "tests/promptos_phase8_workspace.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 926,
+      "is_live": false
+    },
+    "tests/promptos_v2_behavioral.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 342,
+      "is_live": false
+    },
+    "tests/provider_capability_alignment.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 543,
+      "is_live": false
+    },
+    "tests/provider_instrumentation_deterministic.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 367,
+      "is_live": false
+    },
+    "tests/remediation_autonomy_assembly.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 224,
+      "is_live": false
+    },
+    "tests/remediation_bug_fixes.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 2330,
+      "is_live": false
+    },
+    "tests/remediation_cli_binary.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 166,
+      "is_live": false
+    },
+    "tests/remediation_cli_persistence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 261,
+      "is_live": false
+    },
+    "tests/remediation_recovery_hardening.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 270,
+      "is_live": false
+    },
+    "tests/remediation_repository_discovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 184,
+      "is_live": false
+    },
+    "tests/remediation_runtime_convergence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1325,
+      "is_live": false
+    },
+    "tests/remediation_runtime_model_promptos.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 541,
+      "is_live": false
+    },
+    "tests/remediation_seam_hardening.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 296,
+      "is_live": false
+    },
+    "tests/remediation_single_authority.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 651,
+      "is_live": false
+    },
+    "tests/remediation_targeted_verification.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 552,
+      "is_live": false
+    },
+    "tests/remediation_tui_approval.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 195,
+      "is_live": false
+    },
+    "tests/remediation_tui_core_integration.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1773,
+      "is_live": false
+    },
+    "tests/request_routing_intent_enforcement.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1298,
+      "is_live": false
+    },
+    "tests/sandbox_wiring_test.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 140,
+      "is_live": false
+    },
+    "tests/second_stage_remediation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 2933,
+      "is_live": false
+    },
+    "tests/security_p0_credential_boundary.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 314,
+      "is_live": false
+    },
+    "tests/security_p0_endpoint_trust.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 258,
+      "is_live": false
+    },
+    "tests/security_p0_governed_verification.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 171,
+      "is_live": false
+    },
+    "tests/security_p0_output_classification.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 191,
+      "is_live": false
+    },
+    "tests/security_p0_process_boundary.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 795,
+      "is_live": false
+    },
+    "tests/security_p0_prompt_trust.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 174,
+      "is_live": false
+    },
+    "tests/security_p0_protected_paths.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 924,
+      "is_live": false
+    },
+    "tests/security_p1_dns_binding.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 157,
+      "is_live": false
+    },
+    "tests/session_interaction_consolidation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1123,
+      "is_live": false
+    },
+    "tests/storage_architecture.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 602,
+      "is_live": false
+    },
+    "tests/support/autonomous.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 369,
+      "is_live": false
+    },
+    "tests/support/credentials.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 297,
+      "is_live": false
+    },
+    "tests/support/live_inventory.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 410,
+      "is_live": true
+    },
+    "tests/support/mock_provider.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 300,
+      "is_live": false
+    },
+    "tests/support/mod.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 15,
+      "is_live": false
+    },
+    "tests/support/model_caller.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 251,
+      "is_live": false
+    },
+    "tests/support/policy.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 20,
+      "is_live": false
+    },
+    "tests/support/real_model.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 461,
+      "is_live": false
+    },
+    "tests/support/runtime_harness.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 229,
+      "is_live": false
+    },
+    "tests/tui_3_live_cockpit.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 515,
+      "is_live": false
+    },
+    "tests/tui_architecture_principles.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 309,
+      "is_live": false
+    },
+    "tests/tui_autocomplete_repair.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1289,
+      "is_live": false
+    },
+    "tests/tui_canonical_reduction.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 440,
+      "is_live": false
+    },
+    "tests/tui_first_frame_regression.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 608,
+      "is_live": false
+    },
+    "tests/tui_layout_and_interaction_correctness.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 492,
+      "is_live": false
+    },
+    "tests/tui_runtime_integration_remediation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 756,
+      "is_live": false
+    },
+    "tests/tui_runtime_state_repair.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 867,
+      "is_live": false
+    },
+    "tests/tui_ux_reconstruction.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 368,
+      "is_live": false
+    },
+    "tests/tui_ux_remediation_suite.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 2693,
+      "is_live": false
+    },
+    "tests/tui_wiring_integrity_remediation.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 825,
+      "is_live": false
+    },
+    "tests/tui_workspace_v2.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 567,
+      "is_live": false
+    },
+    "tests/user_defined_commands.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 2165,
+      "is_live": false
+    },
+    "tests/user_freedom_configuration.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 261,
+      "is_live": false
+    },
+    "tests/wiring_remediation_regression.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 567,
+      "is_live": false
+    },
+    "tests/workflow_authority_convergence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 603,
+      "is_live": false
+    },
+    "tests/workflow_compiler.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 203,
+      "is_live": false
+    },
+    "tests/workflow_domain.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 548,
+      "is_live": false
+    },
+    "tests/workflow_e2e_canonical.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 263,
+      "is_live": false
+    },
+    "tests/workflow_engine.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 810,
+      "is_live": false
+    },
+    "tests/workflow_engine_failure.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 542,
+      "is_live": false
+    },
+    "tests/workflow_engine_recovery.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 764,
+      "is_live": false
+    },
+    "tests/workflow_execution_spine.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 1239,
+      "is_live": false
+    },
+    "tests/workflow_lowering.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 751,
+      "is_live": false
+    },
+    "tests/workflow_manifest.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 372,
+      "is_live": false
+    },
+    "tests/workflow_persistence.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 574,
+      "is_live": false
+    },
+    "tests/workflow_prompts.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 497,
+      "is_live": false
+    },
+    "tests/workflow_quality_gates.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 344,
+      "is_live": false
+    },
+    "tests/workspace_instance_lifecycle.rs": {
+      "doc_page": "/docs/tests/catalog",
+      "lines": 730,
+      "is_live": false
+    }
+  }
+}
