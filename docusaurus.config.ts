@@ -10,7 +10,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'eshanized',
-  projectName: 'M31A',
+  projectName: 'docs.m31a.tonmoyinfrastructure.org',
 
   onBrokenLinks: 'throw',
 
