@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">M31A Documentation</title>
+  <desc id="desc">Technical documentation for M31 Autonomous, an open-source autonomous software engineering runtime.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171319"/>
+      <stop offset="1" stop-color="#09090b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="65%">
+      <stop offset="0" stop-color="#e5484d" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#e5484d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#fff" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="56" y="54" width="1088" height="522" rx="26" fill="#0b0b0e" fill-opacity=".5" stroke="#fff" stroke-opacity=".13"/>
+  <rect x="56" y="54" width="5" height="522" rx="2.5" fill="#e5484d"/>
+  <g transform="translate(105 98) scale(.52)">
+    <path fill="#e5484d" d="m111.67 298.67h94.22l-19.45 183.91c-.08.56-.11 2.2-.11 2.75 0 14.7 11.97 26.67 26.67 26.67 8.36 0 16.34-4.01 21.63-11.09l186.37-266.24c3.43-4.59 5.33-10.26 5.33-16 0-14.7-11.96-26.67-26.66-26.67h-115.33l19.2-162.18c.06-.61.1-2.53.1-3.15.03-14.7-11.94-26.67-26.64-26.67-8.36 0-16.34 4.01-21.8 11.33L93.69 255.98c-3.46 4.56-5.36 10.26-5.36 16.02 0 14.7 11.97 26.67 26.67 26.67zm157.54-250.9-18.75 158.33c-.53 4.54.9 9.09 3.93 12.5 3.02 3.42 7.38 5.38 11.97 5.38h123.09l-169 241.43 19.15-181.08c.47-4.5-.98-9.02-4.01-12.39-3.05-3.35-7.38-5.27-11.92-5.27h-101.96z"/>
+  </g>
+  <text x="220" y="144" fill="#f5f0eb" font-family="Inter,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="-1">M31A</text>
+  <text x="222" y="178" fill="#a9a6a5" font-family="monospace" font-size="15" letter-spacing="3">M31 AUTONOMOUS</text>
+  <rect x="105" y="246" width="300" height="36" rx="18" fill="#e5484d" fill-opacity=".12" stroke="#e5484d" stroke-opacity=".5"/>
+  <circle cx="126" cy="264" r="4" fill="#e5484d"/>
+  <text x="142" y="269" fill="#f07865" font-family="monospace" font-size="13" font-weight="600" letter-spacing="1">OFFICIAL DOCUMENTATION</text>
+  <text x="105" y="355" fill="#f5f0eb" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Understand the runtime.</text>
+  <text x="105" y="422" fill="#f5f0eb" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Engineer with confidence.</text>
+  <text x="108" y="469" fill="#b1aaad" font-family="Inter,Arial,sans-serif" font-size="21">Architecture · Guides · API reference · Security</text>
+  <line x1="105" y1="510" x2="1094" y2="510" stroke="#fff" stroke-opacity=".14"/>
+  <text x="105" y="544" fill="#aaa3a6" font-family="monospace" font-size="15">The model proposes. The runtime decides.</text>
+  <text x="1095" y="544" fill="#f07865" font-family="monospace" font-size="15" text-anchor="end">docs.m31a.tonmoyinfrastructure.org</text>
+</svg>
