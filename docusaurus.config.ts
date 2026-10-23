@@ -158,7 +158,6 @@ const config: Config = {
     },
     prism: {
       theme: require('prism-react-renderer').themes.github,
-      darkTheme: require('prism-react-renderer').themes.oneDark,
       additionalLanguages: [
         'rust',
         'toml',
@@ -171,8 +170,8 @@ const config: Config = {
       ],
     },
     colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
+      defaultMode: 'light',
+      disableSwitch: true,
       respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
