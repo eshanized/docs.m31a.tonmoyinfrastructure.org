@@ -1,0 +1,30 @@
+name: Documentation Bug / Inaccuracy
+description: Report an error, broken link, outdated code snippet, or typo in the documentation
+title: "[DOC-BUG]: "
+labels: ["documentation", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the M31A documentation accurate and up-to-date!
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL / File Path
+      description: Where in the documentation did you encounter the issue?
+      placeholder: "e.g. https://docs.m31a.tonmoyinfrastructure.org/docs/intro/overview or docs/intro/overview.md"
+    validations:
+      required: true
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Description of the Problem
+      description: Explain what is incorrect, missing, or broken.
+      placeholder: "The snippet in the quickstart command references an invalid flag..."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested Fix (Optional)
+      description: What should the text, code snippet, or link be instead?

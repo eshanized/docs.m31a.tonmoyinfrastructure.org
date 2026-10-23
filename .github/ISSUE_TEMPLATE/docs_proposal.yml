@@ -1,0 +1,30 @@
+name: Documentation Request / Proposal
+description: Propose a new guide, tutorial, architectural diagram, or section for M31A
+title: "[DOC-PROPOSAL]: "
+labels: ["documentation", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for a new tutorial, subsystem guide, or architectural deep dive? Let us know below!
+  - type: input
+    id: topic-title
+    attributes:
+      label: Topic Title
+      placeholder: "e.g. Deep dive into the SQLite Transaction Isolation Model"
+    validations:
+      required: true
+  - type: textarea
+    id: target-audience
+    attributes:
+      label: Target Audience & Context
+      description: Who will benefit from this documentation (e.g. core developers, DevOps engineers, security auditors)?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-content
+    attributes:
+      label: Proposed Outline / Content
+      description: Key sections, concepts, diagrams, or code examples that should be covered.
+    validations:
+      required: true

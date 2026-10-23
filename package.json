@@ -3,6 +3,13 @@
   "version": "0.1.12",
   "private": true,
   "description": "Production Documentation Platform for M31 Autonomous (M31A)",
+  "homepage": "https://docs.m31a.tonmoyinfrastructure.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eshanized/docs.m31a.tonmoyinfrastructure.org.git"
+  },
+  "license": "MIT",
+  "author": "M31 Autonomous Engineering Team",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
